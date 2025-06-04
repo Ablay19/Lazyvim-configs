@@ -1,0 +1,29 @@
+# bin = [{ path = "src/new.rs", name = "new" }]
+[package]
+name = "acli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# clap = { version = "4.5.39", features = ["cargo"] }
+colored = "3.0.0"
+# meval = "0.2.0"
+# symbolica = "0.16.0"
+# fn main() {
+#     let expr = "2 + 3 * (4 - 1)";
+#     match meval::eval_str(expr) {
+#         Ok(result) => println!("Result: {}", result),
+#         Err(e) => println!("Error: {}", e),
+#     }
+# }
+# use symbolica::parser::parse;
+# use symbolica::representation::Atom;
+# use symbolica::simplify::Simplifier;
+#
+# fn main() {
+#     let expr = parse("x^2 - 4").unwrap();
+#     let simp = Simplifier::new();
+#     let simplified = simp.simplify(&expr);
+#
+#     println!("Simplified: {}", simplified.to_string());
+# }
