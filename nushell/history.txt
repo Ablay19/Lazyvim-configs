@@ -2889,3 +2889,8 @@ git init
 git config --global init.defaultBranch main
 git config --global init.defaultBranch master
 git init 
+git add .
+git pull 
+git config --global user.name "Ablay19"
+git config --global user.email "Ablay19@github.com"
+gc -h
