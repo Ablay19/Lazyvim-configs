@@ -2894,3 +2894,29 @@ git pull
 git config --global user.name "Ablay19"
 git config --global user.email "Ablay19@github.com"
 gc -h
+gca "first termux configs"
+git citool 
+git difftool
+git commit-tree 
+git commit-tree .
+i lazyread 
+lazyread 
+lazyread  starship.toml
+uni lazyread 
+i lazygit 
+lazygit 
+git remote add oirgin https://github.com/Ablay19/Lazyvim-configs.git
+git push -u origin master 
+git remote remove origin
+git push -u origin main
+git remote -v
+git remote rename oirgin origin
+git push -u origin master
+git push -u origin master --force 
+v .env 
+git push -u origin master --force 
+lazygit 
+v 
+rm -rf echo/
+l
+gca 
