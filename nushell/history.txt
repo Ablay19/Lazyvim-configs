@@ -1,0 +1,2891 @@
+..
+l
+z .config
+z .config/nushell/
+cd .config
+l
+ls
+config nu 
+$env.EDITOR = nvim
+$env.EDITOR = "nvim"
+config nu 
+z
+zoxide 
+~
+cd /dev
+l
+ls
+cd nul
+cd
+/etc
+ls
+vi appmanager.conf
+pkg install which
+z
+cd
+curl -o /data/data/com.termux/files/usr/bin/install-in-mason  https://raw.githubusercontent.com/Amirulmuuminin/setup-mason-for-termux/main/install-in-mason
+chmod +x /data/data/com.termux/files/usr/bin/install-in-mason
+install-in-mason lua-language-server
+$env.config.edit_mode="vi"
+$env.config.edit_mode = "vi"
+vi $nu.config-path
+pkg install starship
+starship --help
+starship completions
+starship completions nu
+starship completions nushell
+starship completions nushell|save ss.nu
+v ss.nu
+vi ss.nu
+l
+cd ..
+cd
+cargo install rustlings
+pkg install carapace
+cd rustlings
+ls
+rustlings
+cargo install rustlings
+$env.PATH
+$env.PATH += "/data/data/com.termux/files/home/.cargo/bin"
+$env.PATH = "/data/data/com.termux/files/home/.cargo/bin"
+$env.PATH
+cargo install rustlings
+exit 0
+values 
+bash
+config nu 
+$env.VISUAL
+pkg install carapace
+carapace --help
+carapace chmod nushell
+let chmod_completer = {|spans|<\n>    carapace chmod nushell ...$spans | from json<\n>}
+carapace _carapace nushell
+carapace _carapace nushell | save ~/ss.nu
+carapace _carapace nushell | save ~/ss.nu --force 
+v ~/ss.nu
+config nu 
+exit 0
+panic --help 
+panic 'This is a custom panic message'<\n>
+$in
+v ss.nu
+vi ss.nu
+cargo locate-project 
+ls
+cd acli
+rust-gdb 
+cargo r
+cargo install rustlings
+export extern
+export extern 
+cargo install rustlings
+export /data/data/com.termux/files/home/.cargo/bin
+export --help /data/data/com.termux/files/home/.cargo/bin
+exit 0
+vi *.md
+exit 0
+(which nu)
+(which nu).0
+(which nu).0.path
+((which nu).0.path)
+nu ((which nu).0.path)
+exit 0
+cd /data/data/com.termux/files/usr/bin/nu
+cd /data/data/com.termux/files/usr/bin/
+l
+ls
+termux-fix-shebang
+termux-apps-info-app-version-name.bash 
+query db sed 
+query db --help 
+open foo.db | query db "SELECT * FROM Bar"
+stor create -t my_table -c { first: str, second: int }<\n>stor open | query db "INSERT INTO my_table VALUES (?, ?)" -p [hello 123]
+stor create -t my_table -c { first: str, second: int }<\n>stor insert -t my_table -d { first: 'hello', second: '123' }<\n>stor open | query db "SELECT * FROM my_table WHERE second = :search_second" -p { search_second: 123 }<\n>
+cd rustlings
+cd
+cd rustlings
+rustc --allow 
+rustc --allow --help
+rustc --cap-lints 
+rustc r
+cargo r 
+cd ~/acli
+ls
+cd src/
+cd acli ;rm '*.md' 
+$env.CMD_DURATION_MS
+exit 0
+cd src/
+ls
+cd acli
+cd ~/.cargo/
+exit 0
+v
+cd
+cd .dotfiles/
+ls
+ls -a
+cd .config/
+ls
+config nu 
+source starship.toml
+exit 0
+{<\n><\n><\n>}
+exit 0
+gu
+grep ❯
+cd
+vi starship.toml 
+cd
+ls
+❯
+cd
+cd .config/
+ls
+grep ❯
+exit 0
+def_name "hi"
+def_name 35
+exit 0
+def
+def --help 
+def n [] {n}
+n
+def n [] {echo n}
+n
+def n [] {return "hi"}
+n
+exit 0
+vi nushell/config.nu 
+cd
+mkdir go
+cd go/
+ls
+go
+bash go
+exit 0
+vi starship.toml 
+cd ~/rustlings
+vi main.go
+cd ~/acli
+cargo r 
+v src/main.rs
+config nu 
+exit 0
+config nu 
+cd ../.config/nushell/
+v config.nu 
+cd ../.config/nushell/
+config nu 
+v config.nu 
+source config.nu
+cd -
+ls
+cd ../acli/
+v src/
+v Cargo.toml 
+cargo r --bin new
+vi 
+cd -
+cd 0
+cd -
+cd ../acli/
+v Cargo.toml src/new.rs
+cargo r --bin new
+exit 0
+cargo r --bin new
+echo `HI`
+echo `HI<\n>┌────────────────────┐       ┌───────────────────┐       ┌──────────────────┐<\n>│                    │       │                   │       │                  │<\n>│   Browser (JS UI)  │──────▶│  Go Backend API   │──────▶│ Rust Image Logic │<\n>│ (React / Svelte)   │ 1)    │ (Gin / Fiber / Echo)│  2)  │ (image + wasm)   │<\n>│                    │       │                   │       │                  │<\n>└────────────────────┘       └───────────────────┘       └──────────────────┘<\n>        ▲     │ 4)                            ▲    3)<\n>        │     │                               │<\n>        │     └───────────────  Output URLs or binary data   <\n>        │<\n>        └── 5) Display result (JS injects processed image)`
+ls
+pkg install golang
+cd go/
+go run .
+go build 
+go mod 
+go mod init server
+ls
+go run 
+cd
+rm -rf go/
+mkdir go
+cd go/
+go mod init server
+ls
+install-in-mason rust-analyzer
+v go.mod 
+v *.md 
+cd go/
+go run .
+http get localhost:8080
+http get http://localhost:8080
+..
+mv go/ gop
+v *
+cd
+cd gop/
+cd gop/
+ls
+http get http://localhost:8080
+http get http://localhost:8080/
+go run .
+http get http://localhost:8080/
+go get github.com/fatih/color
+go run another
+ls
+go run another.go
+go run .
+echo `HI<\n>┌────────────────────┐       ┌───────────────────┐       ┌──────────────────┐<\n>│                    │       │                   │       │                  │<\n>│   Browser (JS UI)  │──────▶│  Go Backend API   │──────▶│ Rust Image Logic │<\n>│ (React / Svelte)   │ 1)    │ (Gin / Fiber / Echo)│  2)  │ (image + wasm)   │<\n>│                    │       │                   │       │                  │<\n>└────────────────────┘       └───────────────────┘       └──────────────────┘<\n>        ▲     │ 4)                            ▲    3)<\n>        │     │                               │<\n>        │     └───────────────  Output URLs or binary data   <\n>        │<\n>        └── 5) Display result (JS injects processed image)`
+exit 0
+go run .
+http get http://localhost:8080/
+go run main.go
+go clean 
+go run main.go
+http get http://localhost:8080/
+go run main.go
+exit 0
+echo `HI<\n>┌────────────────────┐       ┌───────────────────┐       ┌──────────────────┐<\n>│                    │       │                   │       │                  │<\n>│   Browser (JS UI)  │──────▶│  Go Backend API   │──────▶│ Rust Image Logic │<\n>│ (React / Svelte)   │ 1)    │ (Gin / Fiber / Echo)│  2)  │ (image + wasm)   │<\n>│                    │       │                   │       │                  │<\n>└────────────────────┘       └───────────────────┘       └──────────────────┘<\n>        ▲     │ 4)                            ▲    3)<\n>        │     │                               │<\n>        │     └───────────────  Output URLs or binary data   <\n>        │<\n>        └── 5) Display result (JS injects processed image)`
+exit 0
+http get http://localhost:8080/
+http get http://localhost:8000/
+cd
+mkdir todi
+mv todi/ todo
+cd todo/
+[dependencies]<\n>rusqlite = { version = "0.29", features = ["bundled"] }
+cargo init 
+ls
+v Cargo.toml 
+cargo r
+cargo clean 
+v Cargo.toml 
+cargo clean 
+cargo r
+cargo r
+go install 
+go mod init server
+ls
+mkdir go-appi
+mv go.mod go-appi/
+cd go-appi/
+ls
+..
+ls
+mkdir rust-db
+mv Cargo.toml rust-db/ 
+mv Cargo.lock rust-db/ 
+mv src/ rust-db/ 
+mv target/ rust-db/ 
+cd go-appi/
+go mod init go-api<\n>go get github.com/gorilla/mux
+..
+mv go-appi/ go-api/
+go get github.com/gorilla/mux
+ls
+cd go-api/
+go get github.com/gorilla/mux
+cd ../rust-db/
+<\n>cargo build
+cd ../go-api/
+<\n>go get github.com/gorilla/mux<\n>go get github.com/rs/cors<\n>go get github.com/joho/godotenv
+..
+npm create vite@latest frontend --template react<\n>cd frontend<\n>npm install
+pkg install nodejs 
+npm create vite@latest frontend --template react<\n>cd frontend<\n>npm install
+npm install @mui/material @emotion/react @emotion/styled
+cd rust-db/
+cargo build 
+cargo clean 
+npm install @mui/icons-material
+ls
+..
+cargo r
+ls
+../gop/
+ls
+v main.go 
+v *
+rm '*.md' pkgs.txt ss.nu 
+cd gop/
+ls
+v main.go 
+http get http://localhost:8000/
+http get http://localhost:8000/users
+http get http://localhost:8000/users/2
+http get http://localhost:8000/users/
+http get  http://localhost:8000/users/
+http delete   http://localhost:8000/users/1
+http delete   http://localhost:8000/
+http --help 
+http head localhost:8000/
+http head http://localhost:8000/
+http post --help 
+http post --content-type application/json http://localhost:8000/users {name:"u1"}
+http get  http://localhost:8000/users/
+http post --content-type application/json http://localhost:8000/users/1 {name:"u1"}
+http get  http://localhost:8000/users/1
+http post   http://localhost:8000/users/1 "bodu"
+http get  http://localhost:8000/users/1
+http get  http://localhost:8000/users/
+http post --content-type application/json http://localhost:8000/users/1 {name:"u1"}
+http get  http://localhost:8000/users/1
+http get  http://localhost:8000/users/*
+http get  http://localhost:8000/users/2
+http get  http://localhost:8000/users/1
+http delete   http://localhost:8000/users/1
+http get  http://localhost:8000/users/1
+http get  http://localhost:8000/users/1 --allow-errors 
+http get  http://localhost:8000/users/1 --allow-errors --full 
+http post --content-type application/json http://localhost:8000/users/1 {name:"u1"}
+http post --content-type application/json http://localhost:8000/users/1 {name:"u1"} --full 
+config nu 
+source ~/.config/nushell/config.nu
+l
+pd
+i proot-distro 
+pd i alpine
+l --du
+rm -rf .npm/
+pd sh alpine
+pd reset alpine
+go doc 
+go doc -u 
+go doc -u gop/
+cd go/
+l
+l --du
+..
+rm -rf go/
+exit 0
+exit
+l
+zip todo/
+zip todo/ --help 
+tar --help 
+curl cheat.sh/cat
+pkg install tldr
+exit 0
+pd sh alpine
+exit 0
+pd remove alpine
+apt autoclean 
+apt autoremove 
+pkg autoclean 
+exit 0
+ls
+cd rustlings
+l
+v exercises/11_hashmaps/
+exit 0
+i pod
+config nu 
+source ~/.config/nushell/config.nu
+up
+s jump
+z
+zoxide nu
+zoxide init nu
+zoxide init nudhell
+zoxide init nushell
+config nu 
+source ~/.config/nushell/config.nu
+config nu 
+source ~/.config/nushell/config.nu
+zoxide init | z.nu
+zoxide init | save z.nu
+zoxide init nushell| save z.nu
+mv z.nu ~/.config/nushell/
+z nu
+cd .config/nushell/
+l
+exit 0
+config nu 
+exit 0
+z nu
+z
+i curlie 
+cd gop/
+http post --content-type application/json http://localhost:8000/users/1 {name:"u1"} --full 
+z g
+exit 0
+v main.go 
+http get  http://localhost:8000/users/1 --allow-errors --full 
+http get  http://localhost:8000/users/1 --allow-errors --full | to json 
+http get  http://localhost:8000/users/1 --allow-errors --full | to md 
+http get  http://localhost:8000/users/1 --allow-errors --full | to yaml 
+http get  http://localhost:8000/users/1 --allow-errors --full 
+http post --content-type application/json http://localhost:8000/users/1 {name:"u1"} --full 
+exit 0
+curlie http://localhost:8000/users/1
+v main.go 
+go run main.go
+go doc fmt<\n>go doc fmt.Println<\n>go doc -all net/http
+go install golang.org/x/tools/cmd/godoc@latest
+godoc -http=:6060
+v main.go go.mod 
+cd
+l
+cd gop/
+cd new/
+l
+go run new/new.go
+go run .
+go run new/new.go
+mv new/ learn
+mv learn/new.go learn/learn.go
+exit 0
+v new.go 
+z
+z g
+l
+..
+ll
+(l).1
+(l).*.3
+(l).*
+for --help 
+for x in [1 2 3] { print ($x * $x) }
+let a = (ls<\n>)
+a
+$a
+let a = (ls)
+http post --content-type application/json http://localhost:8000/users/1 {name:"u1"} --full 
+v 
+cx acli
+cd gop/
+exit 0
+http post --content-type application/json http://localhost:8000/users/1 {name:"u1"} --full 
+http post --content-type application/json http://localhost:8000/users/1 {name:"u1"} --full --redirect-mode 
+http post --content-type application/json http://localhost:8000/users/1 {name:"u1"} --full | to json 
+http post --content-type application/json http://localhost:8000/users/ {name:"u1"} --full | to json 
+http post --content-type application/json http://localhost:8000/users/1 {name:"u1"} --full | to json 
+ps
+http post --content-type application/json http://localhost:8000/users/1 {name:"u1"} --full | to json 
+http post --content-type application/json http://localhost:8000/users/ {name:"u1"} --full | to json 
+http post --content-type application/json http://localhost:8000/users/ {name:"u2"}  --full | to json 
+http post --content-type application/json http://localhost:8000/users/ {name:"u3"}  --full | to json 
+http get  http://localhost:8000/users/1 --allow-errors --full 
+http get  http://localhost:8000/users/ --allow-errors --full 
+http get  http://localhost:8000/users/{2} --allow-errors --full 
+http delete   http://localhost:8000/users/1 --allow-errors --full 
+v *.go
+exit 0
+exit 0
+v downloads/my_application.cc 
+rm -rf downloads/
+l
+rm -rf downloads/ --permanent 
+l
+find --help 
+uls | find toml md sh
+ls | find toml md sh
+'Cargo.toml' | find cargo
+[[version name]; ['0.1.0' nushell] ['0.1.1' fish] ['0.2.0' zsh]] | find --regex "nu" --invert
+z acli
+l
+yes 
+timeout --help 
+timeout 
+z r
+cd ../rustlings
+l
+exit 0
+rustlings
+exit 0257765444
+v exercises/11_hashmaps/
+cargo r
+cargo r --bin hashmaps1,
+cargo r --bin hashmaps1
+cargo clippy  --bin hashmaps1
+cargo t   --bin hashmaps1
+let a = (ls)
+echo $a
+echo $a.size
+echo $a.2
+echo $a.|where name == target/
+echo $a.|where name == target
+z ~/.termux/
+termux-reload-settings 
+$env.config.edit_mode = "ecmas"
+$env.config.edit_mode = "emacs"
+hi nkl  jhfv  hj
+echo --help 
+echo $in
+"gghmb njcb"|echo $in
+["gghmb njcb" ]|echo $in
+[["gghmb njcb" ]]|echo $in
+[["gghmb njcb" ] hj mkh]|echo $in
+echo $in
+exit 0257765444
+v "الباقي من المستشارين والملحقين.xlsx" 
+exit 0257765444
+v termux.properties 
+z g
+go run learn/learn.go
+exit 0257765444
+v learn/learn.go 
+exit
+exit 
+z go
+z gop
+l
+http get  http://localhost:800/users/ --full 
+http get  http://localhost:800/ --full 
+http get  http://localhost:800/ --full ;exit 
+exit 
+go mod tidy 
+go mod why 
+exit 
+go get -u github.com/gin-gonic/gin
+cd
+l
+rm -rf downloads/ todo/
+go clean 
+cargo clean 
+l
+cd rustlings
+l
+v learn/server.go
+z g
+curlie http://localhost:8000/books
+exit 
+curlie http://localhost:8000/books --help
+curlie  --help
+http get  http://localhost:8000/books --full ;
+http get  http://localhost:8000/books --full --allow-errors 
+http get  http://localhost:8000/books --full --allow-errors | to msgpack 
+exit 
+curlie http://localhost:8000/books --help
+http post --content-type application/json http://localhost:8000/users/ {<\n>"id":"7",<\n>"title":    "funal",<\n>"author":   "wroter",<\n>"quantity": 56,<\n>  }  --full 
+http post --content-type application/json http://localhost:8000/books/ {<\n>"id":"7",<\n>"title":    "funal",<\n>"author":   "wroter",<\n>"quantity": 56,<\n>  }  --full 
+http post --content-type application/json http://localhost:8000/books/ {<\n>"id":"7",<\n>"title":    "funal",<\n>"author":   "wroter",<\n>"quantity": 56,<\n>  }  --full  
+http post  http://localhost:8000/books/ {<\n>"id":"7",<\n>"title":    "funal",<\n>"author":   "wroter",<\n>"quantity": 56,<\n>  }  --full  --content-type application/json
+exit 
+http post -h
+http post  http://localhost:8000/books/ {<\n>id:"7",<\n>title:    "funal",<\n>author:   "wroter",<\n>quantity: 56,<\n>  }  --full  --content-type application/json
+#!/bin/bash<\n>echo "Content-type: text/html"<\n>echo ""<\n>echo "<h1>Hello from Bash!</h1>"
+http post  http://localhost:8000/books/ {<\n>id:"7",<\n>title:    "funal",<\n>author:   "wroter",<\n>quantity: 56,<\n>  }  --full  --content-type application/json
+http post  http://localhost:8000/books {<\n>id:"7",<\n>title:    "funal",<\n>author:   "wroter",<\n>quantity: 56,<\n>  }  --full  --content-type application/json
+http get  http://localhost:8000/books/2 --full --allow-errors |<\n>
+curl   http://localhost:8000/books/2 
+curlie    http://localhost:8000/books/2 
+http get  http://localhost:8000/books/2 --full --allow-errors |<\n>
+http get  http://localhost:8000/books/2 --full --allow-errors |$in.body
+http get  http://localhost:8000/books/2 --full --allow-errors |$in.body|to json 
+http get  http://localhost:8000/books/2 --full --allow-errors |$in.body|<\n>$in
+http get  http://localhost:8000/books/2 --full --allow-errors |$in.body|$in
+http get  http://localhost:8000/books/4 --full --allow-errors |$in.body|$in
+http get  http://localhost:8000/books/9 --full --allow-errors |$in.body|$in
+http get  http://localhost:8000/books/9 --full --allow-errors 
+http post  http://localhost:8000/books/ {<\n>id:"7",<\n>title:    "funal",<\n>author:   "wroter",<\n>quantity: 56,<\n>  }  --full  --content-type application/json
+http post  http://localhost:8000/books {<\n>id:"7",<\n>title:    "funal",<\n>author:   "wroter",<\n>quantity: 56,<\n>  }  --full  --content-type application/json
+http post  http://localhost:8000/books {<\n>id:"9",<\n>title:    "funblmn jj jokal",<\n>author:   "stjk jo",<\n>quantity: 58,<\n>  }  --full  --content-type application/json
+http post  http://localhost:8000/books {<\n>id:"9",<\n>title:    "funblmn jj jokal",<\n>author:   "stjk jo",<\n>quantity: 58,<\n>  }  --full  --content-type application/json | to json 
+http post  http://localhost:8000/books {<\n>id:"9",<\n>title:    "funblmn jj jokal",<\n>author:   "stjk jo",<\n>quantity: 58,<\n>  }  --full  --content-type application/json | to json | curlie 
+http post  http://localhost:8000/books {<\n>id:"9",<\n>title:    "funblmn jj jokal",<\n>author:   "stjk jo",<\n>quantity: 58,<\n>  }  --full  --content-type application/json | to json | $in
+http get  http://localhost:8000/books/9 --full --allow-errors 
+http get  http://localhost:8000/books/5 --full --allow-errors 
+curlie    http://localhost:8000/books/
+curlie    http://localhost:8000/books
+curlie    http://localhost:8000/check
+curlie    http://localhost:8000/check?id=4
+curlie    http://localhost:8000/check?id=*
+curlie    http://localhost:8000/check?id="5"
+http get  http://localhost:8000/check?id="5"
+http get  http://localhost:8000/check?id=5
+http get  http://localhost:8000/check?id=3
+http get http://localhost:8000/check?id=3
+http patch  http://localhost:8000/check?id=3
+http get   http://localhost:8000/check?id=3
+http get   http://localhost:8000/check?id=8
+http get   http://localhost:8000/check?id=8 --allow-errors -f
+v learn/server.go 
+exit 
+exit 
+v
+exit 
+i httpie
+up
+v 
+i ripgrep 
+i fd 
+v
+v 
+s has  
+v first.hs
+exit 
+git clone https://github.com/ArjunCodesmith/termux-junk-cleaner.git
+cd termux-junk-cleaner/
+l
+chmod +x termux-junk-cleaner.sh 
+./termux-junk-cleaner.sh -a
+z g
+go get modernc.org/sqlite
+z g
+go run learn/sqlite.go
+go run .
+v 
+mkdir js
+cd js/
+npm init -h
+npm init 
+l
+npm run 
+npm run-script 
+node index.js 
+node .
+v index.js
+npn i
+np  i
+npm  i
+l
+node .
+l
+v package-lock.json 
+node .
+node:internal/errors:540<\n>      throw error;<\n>      ^<\n><\n>TypeError [ERR_INVALID_ARG_TYPE]: The "cb" argument must be of type function. Received undefined<\n>    at makeCallback (node:fs:176:3)<\n>    at Object.open (node:fs:537:14)<\n>    at Object.<anonymous> (/data/data/com.termux/files/home/js/index.js:3:4)<\n>    at Module._compile (node:internal/modules/cjs/loader:1734:14)<\n>    at Module._extensions..js (node:internal/modules/cjs/loader:1899:10)<\n>    at Module.load (node:internal/modules/cjs/loader:1469:32)<\n>    at Module._load (node:internal/modules/cjs/loader:1286:12)<\n>    at TracingChannel.traceSync (node:diagnostics_channel:322:14)<\n>    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)<\n>    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:152:5) {<\n>  code: 'ERR_INVALID_ARG_TYPE'<\n>}<\n><\n>Node.js v24.1.0
+exit 
+node .
+exit 
+npm  i express
+exit 
+v index.js
+..
+l
+...
+z -
+-
+--
+cargo new r
+cd r/
+z r
+v
+rustdoc @Cargo.lock 
+rustdoc @src/main.rs 
+rustdoc 
+exit 
+z r
+v src/main.rs 
+cargo  r
+cargo r
+cargo  run 
+exit 
+z j
+npm  i express
+v index.js 
+node .
+node . --trace-warnings 
+node index.js 
+l
+node index.js 
+npm  i morgan
+node index.js 
+http get   http://localhost:3000
+npm  i better-sqlite3
+npm i sqlite3
+npm uni sqlite3
+npm i sqlite3
+exit 
+npm i @vlcn.io/crsqlite-wasm
+z j
+node index.js 
+exit 
+v index.js 
+z j
+v index.js 
+node block.js 
+v block.js
+../gop/
+cd ~/.local/share/nvim/
+l
+l -
+l --du
+rm -rf lazy/ 
+~/.config/
+l --du
+-
+cd -
+l
+l --du
+../../state/
+l
+cd nvim/
+l --du
+rm -rf swap/
+exit 
+v example.db 
+z j
+v index.js 
+v
+exit 
+/
+system
+./system
+l
+l --du
+../dev
+l --du
+/etc
+l --du
+/system/
+./system_ext/
+l
+l --du
+sysctl --help 
+~
+l
+v --headless 
+v --noplugin 
+nano j.js
+nano  f.go
+nano  f.rs
+nano  f.php
+nano f.c f.cpp
+nano f.json
+nano f.ts
+rm f.c*
+<
+c
+nano f.lua
+nano f.vim
+l f.*
+nano f.jsx f.tsx
+nano f.sh f.nu
+l
+l f.*
+rg --help 
+starship help toggle 
+starship prompt 
+starship explain 
+v f.md
+nano f.md
+rm f.json f.jsx f.ts* f.nu f.vim f.sh f 
+rm f.json f.jsx f.ts* f.nu f.vim f.sh 
+l
+l 
+0-0
+0 - 0
+0 / 0
+v
+~/termux-junk-cleaner/termux-junk-cleaner.sh
+v f.*
+exit 
+exit v
+v
+pkg uninstall starship 
+exit 
+config env;config nu 
+source ~/.config/nushell/config.nu
+source ~/.config/nushell/env.nu
+z j
+exit 
+z auto
+cd .local/share/nushell/vendor/autoload/
+l
+rm starship.nu
+z
+l
+exit 
+exit 
+npm create vite@latest frontend --template react<\n>cd frontend<\n>npm install
+l
+v src/
+z
+l
+rm f.*
+l
+lrm j.js
+rm j.js
+l
+z r
+l
+tset --he
+tset -V
+tset -k
+tset -k "h"
+tset -k "nu"
+tset -k nu
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+z j
+node i.ts
+node block.js
+node -h
+node FORCE_COLOR=true
+node --FORCE_COLOR=true
+node --FORCE_COLOR
+node --h
+node -h
+exit 
+v i.ts
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+l
+~
+v
+z r
+v src/main.rs
+z 
+s 
+up
+i tsc
+s tsc
+s typescript
+z j
+npm install typescript --save-dev
+npx tsc
+npx tsc init
+l
+v package.json
+npx tsc init
+l
+mv index.js index.ts
+npx tsc init
+npm install typescript -g
+def cheatsh [cmd] {<\n>    curl $"cheat.sh/($cmd)"<\n>}
+cheatsh npm
+tldr nvim
+tsc index.ts
+http get      https://www.education.gov.mr/web.config
+http get      https://www.education.gov.mr/web.config --insecure 
+http get      https://www.education.gov.mr/web.config --insecure --full 
+http get      https://www.education.gov.mr/web.config --insecure --full --allow-errors 
+http get       --insecure --full --allow-errors https://www.education.gov.mr/user/password
+http get       --insecure --full --allow-errors https://www.education.gov.mr/user/password | get body
+http get       --insecure --full --allow-errors https://www.education.gov.mr/user/password | get body| save ipn/html
+http get       --insecure --full --allow-errors https://www.education.gov.mr/user/password | get body| save ipn.html
+v ~/gop/query.sql
+http get       --insecure --full --allow-errors https://www.education.gov.mr//sites/default/files/js/js_xR3nh9Wh1yXIarW_d8oBSehBMHMHHNx16-IygwQ455Q.js | get body| save ipn.html
+http get       --insecure --full --allow-errors https://www.education.gov.mr//sites/default/files/js/js_xR3nh9Wh1yXIarW_d8oBSehBMHMHHNx16-IygwQ455Q.js | get body
+http get       --insecure --full --allow-errors https://www.education.gov.mr//sites/default/files/js/js_xR3nh9Wh1yXIarW_d8oBSehBMHMHHNx16-IygwQ455Q.js | get body|lines 
+http get       --insecure --full --allow-errors https://www.education.gov.mr//sites/default/files/js/js_xR3nh9Wh1yXIarW_d8oBSehBMHMHHNx16-IygwQ455Q.js | get body|lines |rg api
+http get       --insecure --full --allow-errors https://www.education.gov.mr//sites/default/files/js/js_xR3nh9Wh1yXIarW_d8oBSehBMHMHHNx16-IygwQ455Q.js | get body|lines |rg API
+http get       --insecure --full --allow-errors https://www.education.gov.mr//sites/default/files/js/js_xR3nh9Wh1yXIarW_d8oBSehBMHMHHNx16-IygwQ455Q.js | get body|lines |rg db
+l
+mv ipn.html ipn/js
+mv ipn.html ipn.js
+v ipn.js
+v ipn.html
+bat block.js
+csplit --he
+z j
+v ipn.html
+z re
+fzf App
+fzf Appz
+fzf App.jsx
+z
+fzf -h
+fzf --man
+fzf(fzf --man)
+z r
+v src/main.rs
+l
+stow -h
+cd .dotfiles/
+stow --delete .
+cd
+l
+z.d
+z .d
+l
+git clone https://github.com/ArjunCodesmith/termux-junk-cleaner.git
+git clone https://github.com/Yarob50/Tarmeez-React-Course.git
+-l
+l Tarmeez-React-Course/
+for file in Tarmeez-React-Course/src/*.{js,css} Tarmeez-React-Course/public/*.{js,css}; do<\n>    mv "$file" frontend/<\n>done
+ls Tarmeez-React-Course/src Tarmeez-React-Course/public<\n>| where name ends-with '.js' or name ends-with '.css'<\n>| each { mv $it.name frontend/ }
+ls Tarmeez-React-Course/src Tarmeez-React-Course/public<\n>| where name ends-with '.js' or name ends-with '.css'<\n>| each { mv $in.name frontend/ }
+cd frontend/
+l
+..
+rm -rf Tarmeez-React-Course/
+l
+mkdir proj
+mv gop proj/
+mv js/ proj/
+mv r proj/ ;mv rustlings/ proj/ ;mv frontend/ 
+mv r proj/ ;mv rustlings/ proj/ ;mv frontend/ proj/
+mv frontend/ proj/
+l
+rm -rf .dotfiles/
+rm -rf .npm/
+rm -rf .tldr/ .cargo/
+l --du
+rm -rf go/
+cd proj/
+l
+cargo install rustlings
+cd r
+cargo r
+cargo build 
+cargo r
+../go
+../gop/
+l
+../frontend/
+l
+mv *.js src/
+mv *.css src/
+l
+cd src/
+l
+npm run dev
+l
+v App.jsx
+l
+npm run dev
+v index.js
+i bat
+bat ../package.json
+..
+rm -rf frontend/
+npm create vite@latest frontend --template react<\n>cd frontend<\n>npm install
+cd frontend/
+l
+v src/
+~
+http get     https://github.com/Yarob50/Tarmeez-React-Course/tree/74/project/add-a-new-todo/src
+curlie https://github.com/Yarob50/Tarmeez-React-Course/tree/74/project/add-a-new-todo/src
+i wget
+wget https://github.com/Yarob50/Tarmeez-React-Course/tree/74/project/add-a-new-todo/src
+l
+cd src
+v src
+rm src
+git clone https://github.com/Yarob50/Tarmeez-React-Course.git
+cd Tarmeez-React-Course/
+l
+v README.md
+git branchs
+git branch
+git branch -a
+git --h
+git checkout remotes/origin/74/project/add-a-new-todo
+z src/
+l
+..
+npm run dev
+npm run
+npm run start
+npm i
+cd src
+v
+..
+npm start
+..
+exit 
+l
+ls
+rm cleanup_log.txt first.hs
+ls
+ll
+ls
+base32 --help
+hide --help 
+def say-hi [] { echo 'Hi!' }; hide say-hi
+hide say-hi
+hide say-hij
+ls -a
+ls -l
+ls --threads 
+ls --mime-type 
+z acli/
+l
+v 
+z
+ls --du
+ls --du acli/
+rm -rf acli/
+l
+ls
+kswitch -h
+exit 
+z Tarmeez-React-Course/
+l
+__zoxide_zi 
+l
+cd bin/
+l
+v godoc
+../pkg/
+l
+./mod/
+l
+./mvdan.cc/
+l
+./gofumpt@v0.8.0/
+l
+exit 
+v README.md
+l
+fzf
+fzf --ihelp
+fzf --help
+fzf --bash
+exec (fzf --bash)
+bash exec (fzf --bash)
+bash; exec (fzf --bash)
+|<\n>echo hi
+<\n>echo hibbb
+~
+l
+rm b
+rm .wget-hsts
+{}|describe 
+[]|describe 
+``|describe 
+`m`
+''
+'  '
+'  _'
+'  _'|describe 
+' '|describe 
+-
+dalvikvm -h
+exit 
+z j
+z js
+l
+v package.json
+z
+v
+v --headless +Telescope
+v --headless +qa
+v --headless +quit
+v --headless +FZF
+v +FZF --headless 
+fzf
+fzf (rg prisma)
+rg --help 
+rg prisma 
+fzf
+v .local/share/nvim/lazy/nvim-lspconfig/lsp/prismals.lua
+z js
+v block.js
+npm i prisma --save-dev |<\n>npm install @prisma/client
+ls
+npx prisma init
+l
+npx prisma migrate dev --name init
+npx prisma db push
+apt update && apt install libc6 libstdc++ # or termux equivalents
+apt update and apt install libc6 libstdc++ # or termux equivalents
+apt update ; apt install libc6 libstdc++ # or termux equivalents
+carapace 
+carapace _carapace nushell
+$env.PATH = ($env.PATH | split row (char esep) | prepend "/data/data/com.termux/files/home/.config/carapace/bin")<\n><\n>def --env get-env [name] { $env | get $name }<\n>def --env set-env [name, value] { load-env { $name: $value } }<\n>def --env unset-env [name] { hide-env $name }<\n><\n>let carapace_completer = {|spans|<\n>  # if the current command is an alias, get it's expansion<\n>  let expanded_alias = (scope aliases | where name == $spans.0 | get -i 0 | get -i expansion)<\n><\n>  # overwrite<\n>  let spans = (if $expanded_alias != null  {<\n>    # put the first word of the expanded alias first in the span<\n>    $spans | skip 1 | prepend ($expanded_alias | split row " " | take 1)<\n>  } else {<\n>    $spans | skip 1 | prepend ($spans.0)<\n>  })<\n><\n>  carapace $spans.0 nushell ...$spans<\n>  | from json<\n>}<\n><\n>mut current = (($env | default {} config).config | default {} completions)<\n>$current.completions = ($current.completions | default {} external)<\n>$current.completions.external = ($current.completions.external<\n>| default true enable<\n>| default $carapace_completer completer)<\n><\n>$env.config = $current
+npm install nodemon
+npm install nodemon --save-dev
+npx prisma db push --accept-data-loss
+v prisma/schema.prisma 
+npx prisma db push --accept-data-loss
+npm install @prisma/adapter-better-sqlite3
+i python 
+v /data/data/com.termux/files/usr/etc/pip.conf
+npx prisma db push --accept-data-loss
+mv  index.ts index.js 
+l
+v .env 
+npx prisma db push --accept-data-loss
+v prisma/
+npm install drizzle-orm better-sqlite3
+$env.PATH = ($env.PATH | split row (char esep) | prepend "/data/data/com.termux/files/home/.config/carapace/bin")<\n><\n>def --env get-env [name] { $env | get $name }<\n>def --env set-env [name, value] { load-env { $name: $value } }<\n>def --env unset-env [name] { hide-env $name }<\n><\n>let carapace_completer = {|spans|<\n>  # if the current command is an alias, get it's expansion<\n>  let expanded_alias = (scope aliases | where name == $spans.0 | get -i 0 | get -i expansion)<\n><\n>  # overwrite<\n>  let spans = (if $expanded_alias != null  {<\n>    # put the first word of the expanded alias first in the span<\n>    $spans | skip 1 | prepend ($expanded_alias | split row " " | take 1)<\n>  } else {<\n>    $spans | skip 1 | prepend ($spans.0)<\n>  })<\n><\n>  carapace $spans.0 nushell ...$spans<\n>  | from json<\n>}<\n><\n>mut current = (($env | default {} config).config | default {} completions)<\n>$current.completions = ($current.completions | default {} external)<\n>$current.completions.external = ($current.completions.external<\n>| default true enable<\n>| default $carapace_completer completer)<\n><\n>$env.config = $current
+npm ll 
+~
+l
+l --du
+rm -rf npm
+rm -rf .npm
+z nv
+z ~/.config/
+rm ss.sh 
+l
+rm -rf tmux/ chezmoi/
+l
+rm starship.toml
+z nvim/
+l
+v .neoconf.json .luarc.json
+z js
+l
+v package.json
+l
+../frontend/
+v package.json
+npm run dev
+npm i
+npm run dev
+z lu
+z nvim/
+z nvim
+z .co nvim
+v lua/plugins/lualibe.lua
+cd lua/plugins/lualibe.lua/..
+mv lualibe.lua lualine.lua
+v lualine.lua
+z
+x
+b
+n
+m
+,
+.
+/
+l
+z
+up 
+$env.PATH = ($env.PATH | split row (char esep) | prepend "/data/data/com.termux/files/home/.config/carapace/bin")<\n><\n>def --env get-env [name] { $env | get $name }<\n>def --env set-env [name, value] { load-env { $name: $value } }<\n>def --env unset-env [name] { hide-env $name }<\n><\n>let carapace_completer = {|spans|<\n>  # if the current command is an alias, get it's expansion<\n>  let expanded_alias = (scope aliases | where name == $spans.0 | get -i 0 | get -i expansion)<\n><\n>  # overwrite<\n>  let spans = (if $expanded_alias != null  {<\n>    # put the first word of the expanded alias first in the span<\n>    $spans | skip 1 | prepend ($expanded_alias | split row " " | take 1)<\n>  } else {<\n>    $spans | skip 1 | prepend ($spans.0)<\n>  })<\n><\n>  carapace $spans.0 nushell ...$spans<\n>  | from json<\n>}<\n><\n>mut current = (($env | default {} config).config | default {} completions)<\n>$current.completions = ($current.completions | default {} external)<\n>$current.completions.external = ($current.completions.external<\n>| default true enable<\n>| default $carapace_completer completer)<\n><\n>$env.config = $current
+i texlive-installer 
+termux-install-tl
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+pkg uninstall texlive-installer texlive-bin 
+apt autoremove 
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+apt install texlive
+apt autoremove 
+apt autoclean 
+apt autopurge 
+pkg autoclean 
+exit 
+ps
+exit 
+chmod +x a.sh
+./a.sh
+exit 
+v
+z p
+l
+z j
+z -
+z js
+all --help 
+tail -h
+tail --help
+z g
+z gop
+go run ./learn/anothetGin.go
+exit 
+go run ./learn/anothetGin.go
+go run .
+z r
+http get http://localhost:8000/
+http get http://localhost:8000
+http get http://127.0.0.1:8000
+cargo r
+exit 
+exit 
+http get http://127.0.0.1:8000
+http get http://localhost:8000
+v
+exit 
+exit 
+v
+exit 
+z js
+z h
+z p g
+exit 
+v learn/newWeb.go
+z r
+z -
+exit 
+z -
+z p g
+http post --content-type application/json http://localhost:8000/books/ {<\n>"name": "New",<\n>  }  --full  
+http post --content-type application/json http://localhost:8000/users {<\n>"name": "New",<\n>  }  --full  
+http get http://localhost:8000/users
+http get http://localhost:8000/users/
+http get http://localhost:8000/users/1
+http post --content-type application/json http://localhost:8000/users {<\n>"name": "another",<\n>  }  --full  
+http get http://localhost:8000/users/1
+http get http://localhost:8000/users/2
+http get http://localhost:8000/users/3
+http get http://localhost:8000/users/4
+http get http://localhost:8000/users/4 --full 
+http get http://localhost:8000/users/4 --allow-errors 
+exit 
+http get http://localhost:8000/users/4 --allow-errors 
+http post --content-type application/json http://localhost:8000/users {<\n>"name": "another",<\n>  }  --full  
+http get http://localhost:8000/users/1 --allow-errors 
+http get http://localhost:8000/users/2 --allow-errors 
+http post --content-type application/json http://localhost:8000/users {<\n>"name": "another",<\n>  }  --full  
+v learn/testNativeServer.go
+v req.http
+install-in-mason sqlls
+exit 
+sancov -h
+v req.http
+$env.PATH = ($env.PATH | split row (char esep) | prepend "/data/data/com.termux/files/home/.config/carapace/bin")<\n><\n>def --env get-env [name] { $env | get $name }<\n>def --env set-env [name, value] { load-env { $name: $value } }<\n>def --env unset-env [name] { hide-env $name }<\n><\n>let carapace_completer = {|spans|<\n>  # if the current command is an alias, get it's expansion<\n>  let expanded_alias = (scope aliases | where name == $spans.0 | get -i 0 | get -i expansion)<\n><\n>  # overwrite<\n>  let spans = (if $expanded_alias != null  {<\n>    # put the first word of the expanded alias first in the span<\n>    $spans | skip 1 | prepend ($expanded_alias | split row " " | take 1)<\n>  } else {<\n>    $spans | skip 1 | prepend ($spans.0)<\n>  })<\n><\n>  carapace $spans.0 nushell ...$spans<\n>  | from json<\n>}<\n><\n>mut current = (($env | default {} config).config | default {} completions)<\n>$current.completions = ($current.completions | default {} external)<\n>$current.completions.external = ($current.completions.external<\n>| default true enable<\n>| default $carapace_completer completer)<\n><\n>$env.config = $current
+i sqlite 
+up
+sqlite3 -h
+sqlite3 --help
+sqlite3 example.db 
+>_go get github.com/mattn/go-sqlite3
+go get github.com/mattn/go-sqlite3
+npm i sql-language-server
+z p g
+z .t
+termux-reload-settings 
+exit 
+v colors.properties
+exit 
+v main.go
+exit 
+ps
+v
+z .cache/
+l
+rm -rf *
+exit 
+pkg uninstall python
+..
+zvlo
+z lo
+../../../
+l
+..
+l state/
+v state/lesshst
+..
+pr -h
+proj/gop/
+l
+l --du ~
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+exit 
+z p g
+z  ../r
+z r
+# اختصارات alias لكل نسخة من Neovim<\n>alias nvim-lazy = { NVIM_APPNAME="LazyVim" nvim }<\n>alias nvim-kick = { NVIM_APPNAME="kickstart" nvim }<\n>alias nvim-chad = { NVIM_APPNAME="NvChad" nvim }<\n>alias nvim-astro = { NVIM_APPNAME="AstroNvim" nvim }<\n><\n># دالة اختيار نسخة Neovim باستخدام fzf<\n>def nvims [...args] {<\n>  let items = [ "default", "kickstart", "LazyVim", "NvChad", "AstroNvim" ]<\n>  <\n>  let config = ( $items | str join "\n" | fzf --prompt " Neovim Config  " --height=50% --layout=reverse --border --exit-0 | str trim )<\n><\n>  if ($config == "") {<\n>    print "Nothing selected"<\n>    return<\n>  }<\n><\n>  if ($config == "default") {<\n>    let config = ""<\n>  }<\n><\n>  # تشغيل neovim بالاسم المختار<\n>  NVIM_APPNAME=$config nvim $args<\n>}<\n><\n># اختصار Ctrl-a لتشغيل nvims<\n># ملاحظة: هذا الجزء لا يعمل داخل nushell نفسه، لكن يمكن إضافته إلى tmux أو zsh<\n># داخل tmux: bind-key -n C-a run-shell "nu -c 'nvims'"
+# دوال لتشغيل Neovim مع كل إعداد<\n>def nvim-lazy [...args] {<\n>  NVIM_APPNAME = "LazyVim"<\n>  nvim ...$args<\n>}<\n><\n>def nvim-kick [...args] {<\n>  NVIM_APPNAME = "kickstart"<\n>  nvim ...$args<\n>}<\n><\n>def nvim-chad [...args] {<\n>  NVIM_APPNAME = "NvChad"<\n>  nvim ...$args<\n>}<\n><\n>def nvim-astro [...args] {<\n>  NVIM_APPNAME = "AstroNvim"<\n>  nvim ...$args<\n>}<\n><\n># دالة لاختيار الإعداد عبر fzf<\n>def nvims [...args] {<\n>  let items = [ "default", "kickstart", "LazyVim", "NvChad", "AstroNvim" ]<\n>  <\n>  let config = ( $items | str join "\n" | fzf --prompt " Neovim Config  " --height=50% --layout=reverse --border --exit-0 | str trim )<\n><\n>  if ($config == "") {<\n>    print "Nothing selected"<\n>    return<\n>  }<\n><\n>  let app = if $config == "default" { "" } else { $config }<\n><\n>  NVIM_APPNAME = $app<\n>  nvim ...$args<\n>}
+# دوال لتشغيل Neovim مع كل إعداد<\n>def nvim-lazy [...args] {<\n>  with-env [NVIM_APPNAME "LazyVim"] {<\n>    nvim $args<\n>  }<\n>}<\n><\n>def nvim-kick [...args] {<\n>  with-env [NVIM_APPNAME "kickstart"] {<\n>    nvim $args<\n>  }<\n>}<\n><\n>def nvim-chad [...args] {<\n>  with-env [NVIM_APPNAME "NvChad"] {<\n>    nvim $args<\n>  }<\n>}<\n><\n>def nvim-astro [...args] {<\n>  with-env [NVIM_APPNAME "AstroNvim"] {<\n>    nvim $args<\n>  }<\n>}<\n><\n># دالة لاختيار الإعداد عبر fzf<\n>def nvims [...args] {<\n>  let items = ["default", "kickstart", "LazyVim", "NvChad", "AstroNvim"]<\n><\n>  let config = (<\n>    $items<\n>    | str join "\n"<\n>    | fzf --prompt " Neovim Config  " --height 50% --layout reverse --border --exit-0<\n>    | str trim<\n>  )<\n><\n>  if ($config == "") {<\n>    print "Nothing selected"<\n>    return<\n>  }<\n><\n>  # إذا default اترك المتغير فارغ<\n>  let app = (if $config == "default" { "" } else { $config })<\n><\n>  with-env [NVIM_APPNAME $app] {<\n>    nvim $args<\n>  }<\n>}
+nvims
+v nvims.nu
+git clone https://github.com/NvChad/starter ~/.config/NvChad
+nvims
+v nvims.nu
+def nvim-lazy [...args] {<\n>  with-env { NVIM_APPNAME: "LazyVim" } {<\n>    nvim ...$args<\n>  }<\n>}<\n><\n>def nvim-kick [...args] {<\n>  with-env { NVIM_APPNAME: "kickstart" } {<\n>    nvim ...$args<\n>  }<\n>}<\n><\n>def nvim-chad [...args] {<\n>  with-env { NVIM_APPNAME: "NvChad" } {<\n>    nvim ...$args<\n>  }<\n>}<\n><\n>def nvim-astro [...args] {<\n>  with-env { NVIM_APPNAME: "AstroNvim" } {<\n>    nvim ...$args<\n>  }<\n>}<\n><\n>def nvims [...args] {<\n>  let items = ["default", "kickstart", "LazyVim", "NvChad", "AstroNvim"]<\n><\n>  let config = (<\n>    $items<\n>    | str join "\n"<\n>    | fzf --prompt " Neovim Config  " --height 50% --layout reverse --border --exit-0<\n>    | str trim<\n>  )<\n><\n>  if ($config == "") {<\n>    print "Nothing selected"<\n>    return<\n>  }<\n><\n>  let app = if $config == "default" { "" } else { $config }<\n><\n>  with-env { NVIM_APPNAME: $app } {<\n>    nvim ...$args<\n>  }<\n>}
+z .local/
+l
+rm -rf state/nvim/ share/nvim/
+../.cache/
+rm -rf nvim/
+nvims
+l
+rm -rf NvChad/
+rm -rf ../.local/share/NvChad/ ../.local/state/NvChad/
+l
+l  ../.local/*/
+l  ../.local/*/*
+install-in-mason lua-language-server
+install-in-mason rust-analyzer
+nvim 
+z p g
+go run .
+exit 
+l
+~
+ls --du 
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+z p g
+v
+z r
+v src/bin/
+z p g
+../js/
+node index.js
+exit 
+v
+v block.js
+exit 
+v learn/learn.go
+exit 
+z p g
+v learn/learn.go
+$env.PATH = ($env.PATH | split row (char esep) | prepend "/data/data/com.termux/files/home/.config/carapace/bin")<\n><\n>def --env get-env [name] { $env | get $name }<\n>def --env set-env [name, value] { load-env { $name: $value } }<\n>def --env unset-env [name] { hide-env $name }<\n><\n>let carapace_completer = {|spans|<\n>  # if the current command is an alias, get it's expansion<\n>  let expanded_alias = (scope aliases | where name == $spans.0 | get -i 0 | get -i expansion)<\n><\n>  # overwrite<\n>  let spans = (if $expanded_alias != null  {<\n>    # put the first word of the expanded alias first in the span<\n>    $spans | skip 1 | prepend ($expanded_alias | split row " " | take 1)<\n>  } else {<\n>    $spans | skip 1 | prepend ($spans.0)<\n>  })<\n><\n>  carapace $spans.0 nushell ...$spans<\n>  | from json<\n>}<\n><\n>mut current = (($env | default {} config).config | default {} completions)<\n>$current.completions = ($current.completions | default {} external)<\n>$current.completions.external = ($current.completions.external<\n>| default true enable<\n>| default $carapace_completer completer)<\n><\n>$env.config = $current
+fzf
+.config/carapace/bridge/bash/
+l
+v .bashrc 
+cp ~/.bashrc ./ 
+l
+v .bashrc 
+carapace 
+..!
+~
+curl --proto '=https' --tlsv1.2 -LsSf https://setup.atuin.sh | sh
+pd i alpine
+pd sh alpine
+mkdir ~/.local/share/atuin/<\n>atuin init nu | save ~/.local/share/atuin/init.nu
+i atuin 
+mkdir ~/.local/share/atuin/<\n>atuin init nu | save ~/.local/share/atuin/init.nu
+config nu 
+source ~/.local/share/atuin/init.nu
+atuin -h
+exit 
+v ~/.config/atuin/config.toml
+exit 
+v
+z .c
+z .co 
+l
+fzf 
+..
+fzf 
+.local/share/nvim/lazy/lualine.nvim/lua/lualine/extensions/
+l
+..
+l
+themes/
+l
+v auto.lua
+v auto.lua
+~/.config/
+l
+rm -rf TabNine/ NvChad/ 
+~/.local/share/
+rm -rf TabNine/ NvChad/ 
+../state/
+rm -rf TabNine/ NvChad/ 
+z
+v
+pkg uninstall python
+pkg uninstall python3
+pkg uninstall atuin
+exit 
+exit 
+config nu 
+exit 
+v
+z .co 
+l
+rm -rd github-copilot/ 
+rm -rf github-copilot/ 
+v
+exit 
+exit 
+$env.OPENROUTER_API_KEY
+v
+exit 
+..
+v
+exit 
+z r
+v src/bin/main.rs
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+apt autoclean 
+pkg autoclean 
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+zi 
+z .co 
+l
+v
+z .l
+l
+rm -rf share/nvim/avante/ state/nvim/avante/
+v
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+z
+v
+z r
+v
+..
+./gop/
+go run . -- hi
+go run . 
+go run . --help
+z r
+v src/bin/main.rs Cargo.toml
+cargo clean 
+zu
+zi
+l
+../../../.cache/nvim/
+l
+l --du 
+jq
+i jq
+up
+i jq
+jq tokyonight-moon.json
+open tokyonight-moon.json
+v tokyonight-moon.json
+v tokyonight-moon.json
+l --du tokyonight-moon.json
+l --du tokyonight-moon.json --threads 
+~
+z r
+exit 
+v src/
+l
+l src/
+exec `rustc --explain E0373`
+v src/bin/main.rs 
+rm -rf src/bin/main.rs
+head -h
+head --help
+v src/main.rs
+z j
+l
+i yay
+s yay
+cargo new --lib comp
+l
+z comp/
+l
+v src/lib.rs
+exec `rustc --explain E0373`
+exit 
+cargo new --lib Hello_Macro
+z Hello_Macro/
+exit 
+cargo new --lib hello_macro_derive
+exit 
+z r
+z he
+z hello_macro_derive/
+cargo build 
+exit 
+z he
+cargo build 
+z .l
+l
+l share/nvim/ state/nvim/
+rm -rf state/nvim/swap/
+z r
+l
+v
+z r
+v src/main.rs
+z p g
+v learn/learn.go
+../
+mkdir gamego
+z gamego/
+l
+go -h
+go mod -h
+go mod help
+go mod init
+l
+go mod init gogame
+v main.go
+z ga
+go run github.com/hajimehoshi/ebiten/v2/examples/rotate@latest
+i gcc
+i libllvm
+GOOS=windows go run github.com/hajimehoshi/ebiten/v2/examples/rotate@latest
+go run github.com/hajimehoshi/ebiten/v2/examples/rotate@latest
+pkg install libandroid-glob<\n>pkg install mesa<\n>pkg install mesa-dev
+go run github.com/hajimehoshi/ebiten/v2/examples/rotate@latest
+go run github.com/hajimehoshi/ebiten/v2/examples/blocks@latest
+go run github.com/hajimehoshi/ebiten/v2/examples/pong@latest
+v main.go
+z ga
+go get github.com/go-playground/locales/cs
+v main.go
+go get github.com/dreamsofcode-io/routing/handler
+exit 
+z ga
+v main.go
+v
+~;https://github.com/microsoft/cascadia-code/releases/download/v2407.24/CascadiaCode-2407.24.zip
+z ~;https://github.com/microsoft/cascadia-code/releases/download/v2407.24/CascadiaCode-2407.24.zip
+z ~;curl https://github.com/microsoft/cascadia-code/releases/download/v2407.24/CascadiaCode-2407.24.zip
+l
+rm -rf .supermaven/ nvims.nu Tarmeez-React-Course/ 
+curl https://github.com/microsoft/cascadia-code/releases/download/v2407.24/CascadiaCode-2407.24.zip
+l
+z .dotfiles/
+l
+cd .config/
+l
+../..
+rm -rf .dotfiles/
+l
+http get https://github.com/microsoft/cascadia-code/releases/download/v2407.24/CascadiaCode-2407.24.zip
+l
+z .dotfiles/
+z ga
+v main.go
+../r/
+l
+cargo r
+z js
+node block.js
+exit 
+v https://youtu.be/wXZgUudR41I?si=hrZUaNRkNIqMMlCI
+l
+z p
+..
+l
+mkfifo  -h
+carapace 
+carapace init
+l
+carapace _carapace nushell
+$env.PATH = ($env.PATH | split row (char esep) | prepend "/data/data/com.termux/files/home/.config/carapace/bin")<\n><\n>def --env get-env [name] { $env | get $name }<\n>def --env set-env [name, value] { load-env { $name: $value } }<\n>def --env unset-env [name] { hide-env $name }<\n><\n>let carapace_completer = {|spans|<\n>  # if the current command is an alias, get it's expansion<\n>  let expanded_alias = (scope aliases | where name == $spans.0 | get -i 0 | get -i expansion)<\n><\n>  # overwrite<\n>  let spans = (if $expanded_alias != null  {<\n>    # put the first word of the expanded alias first in the span<\n>    $spans | skip 1 | prepend ($expanded_alias | split row " " | take 1)<\n>  } else {<\n>    $spans | skip 1 | prepend ($spans.0)<\n>  })<\n><\n>  carapace $spans.0 nushell ...$spans<\n>  | from json<\n>}<\n><\n>mut current = (($env | default {} config).config | default {} completions)<\n>$current.completions = ($current.completions | default {} external)<\n>$current.completions.external = ($current.completions.external<\n>| default true enable<\n>| default $carapace_completer completer)<\n><\n>$env.config = $current
+carapace chmod nushell
+let chmod_completer = {|spans|<\n>    carapace chmod nushell ...$spans | from json<\n>}
+carapace --help
+z
+carapace _carapace nushell
+fzf 
+z .co ca
+z .co
+z carapace/
+l
+../..
+l
+$env.PATH = ($env.PATH | split row (char esep) | prepend "/data/data/com.termux/files/home/.config/carapace/bin")<\n><\n>def --env get-env [name] { $env | get $name }<\n>def --env set-env [name, value] { load-env { $name: $value } }<\n>def --env unset-env [name] { hide-env $name }<\n><\n>let carapace_completer = {|spans|<\n>  # if the current command is an alias, get it's expansion<\n>  let expanded_alias = (scope aliases | where name == $spans.0 | get -i 0 | get -i expansion)<\n><\n>  # overwrite<\n>  let spans = (if $expanded_alias != null  {<\n>    # put the first word of the expanded alias first in the span<\n>    $spans | skip 1 | prepend ($expanded_alias | split row " " | take 1)<\n>  } else {<\n>    $spans | skip 1 | prepend ($spans.0)<\n>  })<\n><\n>  carapace $spans.0 nushell ...$spans<\n>  | from json<\n>}<\n><\n>mut current = (($env | default {} config).config | default {} completions)<\n>$current.completions = ($current.completions | default {} external)<\n>$current.completions.external = ($current.completions.external<\n>| default true enable<\n>| default $carapace_completer completer)<\n><\n>$env.config = $current
+nu -v
+carapace init
+$env.PATH = ($env.PATH | split row (char esep) | prepend "/data/data/com.termux/files/home/.config/carapace/bin")<\n><\n>def --env get-env [name] { $env | get $name }<\n>def --env set-env [name, value] { load-env { $name: $value } }<\n>def --env unset-env [name] { hide-env $name }<\n><\n>let carapace_completer = {|spans|<\n>  # if the current command is an alias, get it's expansion<\n>  let expanded_alias = (scope aliases | where name == $spans.0 | get -i 0 | get -i expansion)<\n><\n>  # overwrite<\n>  let spans = (if $expanded_alias != null  {<\n>    # put the first word of the expanded alias first in the span<\n>    $spans | skip 1 | prepend ($expanded_alias | split row " " | take 1)<\n>  } else {<\n>    $spans | skip 1 | prepend ($spans.0)<\n>  })<\n><\n>  carapace $spans.0 nushell ...$spans<\n>  | from json<\n>}<\n><\n>mut current = (($env | default {} config).config | default {} completions)<\n>$current.completions = ($current.completions | default {} external)<\n>$current.completions.external = ($current.completions.external<\n>| default true enable<\n>| default $carapace_completer completer)<\n><\n>$env.config = $current
+carapace -v
+$env.PATH = ($env.PATH | split row (char esep) | prepend "/data/data/com.termux/files/home/.config/carapace/bin")<\n><\n>def --env get-env [name] { $env | get $name }<\n>def --env set-env [name, value] { load-env { $name: $value } }<\n>def --env unset-env [name] { hide-env $name }<\n><\n>let carapace_completer = {|spans|<\n>  # if the current command is an alias, get it's expansion<\n>  let expanded_alias = (scope aliases | where name == $spans.0 | get -i 0 | get -i expansion)<\n><\n>  # overwrite<\n>  let spans = (if $expanded_alias != null  {<\n>    # put the first word of the expanded alias first in the span<\n>    $spans | skip 1 | prepend ($expanded_alias | split row " " | take 1)<\n>  } else {<\n>    $spans | skip 1 | prepend ($spans.0)<\n>  })<\n><\n>  carapace $spans.0 nushell ...$spans<\n>  | from json<\n>}<\n><\n>mut current = (($env | default {} config).config | default {} completions)<\n>$current.completions = ($current.completions | default {} external)<\n>$current.completions.external = ($current.completions.external<\n>| default true enable<\n>| default $carapace_completer completer)<\n><\n>$env.config = $current
+carapace -v
+config env
+cource ~/.config/carapace/
+source ~/.config/nushell/env.nu
+source ~/.config/nushell/config.nu
+carapace -v
+pkg upgrade carapace
+carapace -v
+pkg update carapace
+source ~/.config/nushell/config.nu
+carapace -v
+nu -v
+# إزالة النسخة القديمة (إن وجدت)<\n>rm -f ~/.local/bin/carapace<\n><\n># تنزيل نسخة جديدة (مثلاً v1.3.3 أو الأحدث)<\n>wget https://github.com/rsteube/carapace-bin/releases/download/v1.3.3/carapace-bin_1.3.3_linux_arm64.tar.gz<\n>tar -xvzf carapace-bin_1.3.3_linux_arm64.tar.gz<\n>mv carapace ~/.local/bin/<\n>chmod +x ~/.local/bin/carapace
+carapace -v
+i carapace 
+z .cache/carapace/
+l
+v init.nu 
+source init.nu
+exit 
+/data/data/com.termux/files/home/.cache/carapace
+v init.nu 
+source init.nu
+chmod +w init.nu 
+exit 
+ls -l 
+chmod +x init.nu 
+init.nu
+nu init.nu
+chmod -R 7
+chmod -R 760
+chmod -R 777 init.nu 
+v init.nu 
+source init.nu
+nu init.nu
+v init.nu 
+rm -rf init.nu
+exit 
+exit 
+exit 
+cargo-clippy -h
+z .cache/carapace/
+z .cache carapace
+rm -rf init.nu
+z .cache carapace
+try  $"(ls ~/.cache/carapace/init.nu)" 
+config env
+exit 
+config env
+exit 
+exit 
+l
+..
+exit 
+z proj/learn_gin/
+go mod init learn_gin
+go mod tidy 
+go get -u github.com/gin-gonic/gin
+../gamego/
+curl https://raw.githubusercontent.com/gin-gonic/examples/master/basic/main.go > main.go
+l
+exit 
+go install github.com/air-verse/air@latest
+exit 
+z proj/learn_gin/
+air init
+v
+z proj/learn_gin/
+go install github.com/air-verse/air@latest
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+$env.PATH
+config env
+air init
+exit 
+v .air.toml
+source ~/.config/nushell/env.nu
+air init
+l
+rm cleanup_log.txt
+go get github.com/golang-migrate/migrate/database/sqlite3 
+exit 
+v
+l
+curl -L https://github.com/golang-migrate/migrate/releases/download/$version/migrate.$os-$arch.tar.gz | tar xvz
+# إزالة النسخة القديمة (إن وجدت)<\n>rm -f ~/.local/bin/carapace<\n><\n># تنزيل نسخة جديدة (مثلاً v1.3.3 أو الأحدث)<\n>wget https://github.com/rsteube/carapace-bin/releases/download/v1.3.3/carapace-bin_1.3.3_linux_arm64.tar.gz<\n>tar -xvzf carapace-bin_1.3.3_linux_arm64.tar.gz<\n>mv carapace ~/.local/bin/<\n>chmod +x ~/.local/bin/carapace
+$env.PATH = ($env.PATH | split row (char esep) | prepend "/data/data/com.termux/files/home/.config/carapace/bin")<\n><\n>def --env get-env [name] { $env | get $name }<\n>def --env set-env [name, value] { load-env { $name: $value } }<\n>def --env unset-env [name] { hide-env $name }<\n><\n>let carapace_completer = {|spans|<\n>  # if the current command is an alias, get it's expansion<\n>  let expanded_alias = (scope aliases | where name == $spans.0 | get -i 0 | get -i expansion)<\n><\n>  # overwrite<\n>  let spans = (if $expanded_alias != null  {<\n>    # put the first word of the expanded alias first in the span<\n>    $spans | skip 1 | prepend ($expanded_alias | split row " " | take 1)<\n>  } else {<\n>    $spans | skip 1 | prepend ($spans.0)<\n>  })<\n><\n>  carapace $spans.0 nushell ...$spans<\n>  | from json<\n>}<\n><\n>mut current = (($env | default {} config).config | default {} completions)<\n>$current.completions = ($current.completions | default {} external)<\n>$current.completions.external = ($current.completions.external<\n>| default true enable<\n>| default $carapace_completer completer)<\n><\n>$env.config = $current
+exit 
+curl -L https://packagecloud.io/golang-migrate/migrate/gpgkey | apt-key add -
+echo "deb https://packagecloud.io/golang-migrate/migrate/ubuntu/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/migrate.list<\n>
+apt-get update
+uo
+up
+apt-get install -y migrate
+i migrate
+apt install migrate
+go get -u -d github.com/golang-migrate/migrate/cmd/migrate
+go install -tags 'postgres' github.com/golang-migrate/migrate/v4/cmd/migrate@latest
+go install -tags 'sqlite' github.com/golang-migrate/migrate/v4/cmd/migrate@latest
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+v /etc/apt/sources.list.d/migrate.list<\n>
+migrate create -ext sql -dir ./cmd/migrate/migrations/ -seq create_user_table
+migrate create -ext sql -dir ./cmd/migrate/migrations/ -seq create_events_table
+migrate create -ext sql -dir ./cmd/migrate/migrations/ -seq create_attendees_table
+exit 
+v
+install-in-mason sqlls
+i sqlls
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+exit 
+go run ./cmd/migrate/main.go
+go run ./cmd/migrate/main.go up
+exit 
+v
+sqlite3 data.db
+exit 
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+z proj/learn_gin/
+v
+i duckdb
+apt autoclean 
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+go run ./cmd/migrate/main.go up
+exit 
+z proj/learn_gin/
+air
+exit 
+v
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+.~
+~
+fzf clean
+fzf 
+rm (fzf --multi)
+rm /data/data/com.termux/files/home/cleanup_log.txt termux-junk-cleaner/cleanup_log.txt proj/learn_gin/cleanup_log.txt proj/gop/cleanup_log.txt proj/js/cleanup_log.txt .local/cleanup_log.txt
+fzf 
+v cmd/api/routes.go
+z proj/learn_gin/
+cd cmd/api/
+http get https://www.rimnow.com/tmp/ --full 
+http get --full https://www.rimnow.com/bin/ 
+http get --full https://www.rimnow.com/bin/
+http get --full https://www.rimnow.com/bin
+http get --full https://www.rimnow.com/administrator
+http get --full https://www.rimnow.com/administrator --allow-errors 
+http get --full  --allow-errors https://www.rimnow.com/installation
+http get --full  --allow-errors https://www.rimnow.com/plugins
+http get --full  --allow-errors http://www.rimnow.com/installation
+exit 
+v
+exit 
+z proj/learn_gin/
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+pd remove alpine
+exit 
+pd remove 
+pd rm *
+pkg reinstall proot-distro
+exit 
+pkg reinstall proot-distro
+i duckdb
+up
+i duckdb
+z proj/learn_gin/
+v
+duckdb 
+duckdb -h
+duckdb --help
+~
+v .duckdb_history
+duckdb --help
+duckdb 
+exit 
+http post --content-type application/json http://localhost:8000/api/v1/events/ {<\n>"name": "another",<\n>  <\n><\n>}  --full  
+v r.r
+z proj/learn_gin/
+air
+rm data.db
+http post --content-type application/json http://localhost:8000/api/v1/events/ {<\n>"name": "another",<\n>  <\n><\n>}  --full  
+exit 
+curl -X POST http://localhost:8000/api/v1/auth/register -H "Content-Type: application/json" -d '{<\n>"email": "abd@gmailn.hyi",<\n>"password": "password",<\n>"name":"Test user"<\n>}' -d "\nHTTP Status: %{http_code}\n" 
+curl -X POST http://localhost:8000/api/v1/auth/register -H "Content-Type: application/json" -d '{<\n>"email": "abd@gmailn.hyi",<\n>"password": "password",<\n>"name":"Test user"<\n>}' -w "\nHTTP Status: %{http_code}\n" 
+go run ./cmd/migrate/main.go up
+curl -X POST http://localhost:8000/api/v1/auth/register -H "Content-Type: application/json" -d '{<\n>"email": "abd@gmailn.hyi",<\n>"password": "password",<\n>"name":"Test user"<\n>}' -w "\nHTTP Status: %{http_code}\n" 
+red -h
+red 
+red h.yxt
+curl -X POST http://localhost:8000/api/v1/auth/register -H "Content-Type: application/json" -d '{<\n>"email": "abd@gmailn.hyi",<\n>"password": "password",<\n>"name":"Test user"<\n>}' -w "\nHTTP Status: %{http_code}\n" 
+curl -X POST http://localhost:8000/api/v1/auth/register -H "Content-Type: application/json" -d '{"email": "abd@gmailn.hyi","password": "password","name":"Test user"}' -w "\nHTTP Status: %{http_code}\n" 
+air
+curl -X POST http://localhost:8000/api/v1/auth/register -H "Content-Type: application/json" -d '{<\n>"email": "abd@gmailn.hyi",<\n>"password": "password",<\n>"name":"Test user"<\n>}' -w "\nHTTP Status: %{http_code}\n" 
+curl -X POST http://localhost:8000/api/v1/auth/register -H "Content-Type: application/json" -d '{<\n>"email": "abd577iuy@gmailn.hyi",<\n>"password": "passwoird",<\n>"name":"Test userioj"<\n>}' -w "\nHTTP Status: %{http_code}\n" 
+v
+exit 
+exit 
+z proj/learn_gin/
+go run ./cmd/migrate/main.go doen
+go run ./cmd/migrate/main.go down
+rm data.db
+go run ./cmd/migrate/main.go down
+go run ./cmd/migrate/main.go up
+v
+go run ./cmd/migrate/main.go down
+go run ./cmd/migrate/main.go up
+rm data.db
+go run ./cmd/migrate/main.go down
+go run ./cmd/migrate/main.go up
+v
+exit 
+air
+air -h
+air 
+l
+air init
+air 
+go run ./cmd/migrate/main.go down
+go run ./cmd/migrate/main.go up
+rm data.db
+go run ./cmd/migrate/main.go down
+go run ./cmd/migrate/main.go up
+air 
+v
+exit 
+exit 
+v
+exit 
+z proj/learn_gin/
+s swag
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+v
+claude
+s claude
+v
+ps
+exit 
+z proj/learn_gin/
+go run .
+http post --content-type application/json http://localhost:8000/api/v1/events/ <\n>  <\n><\n>
+v
+i nix
+z proj/learn_gin/
+go build -buildmode=plugin -o myPlug.so myPlug.go
+exit 
+v
+v --headless +FZF
+v --headless 
+v --headless +Lazy sync +q
+v  +Lazy sync +q
+v  +Lazy sync 
+v  +Lazy 
+v  +LazySync
+v  +Lazy
+mkdir tcp
+cd tcp/
+go mod init tcp
+go mod tidy 
+go mod init c
+mv c ../
+l
+..
+l
+z c
+go mod init c
+go mod tidy 
+go run .
+go run .
+rm go.mod
+go mod init c
+go mod tidy 
+rm go.mod
+go mod init tcp
+go mod tidy 
+go run .
+go run .
+go work use .
+go run .
+up
+up --fix-missing
+pkg update --fix-missing
+pkg install --fix-missing
+termux-change-repo
+up
+pkg uninstall duckdb
+apt autoclean 
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+fzf --multi
+l
+fzf --multi
+rm cleanup_log.txt
+proj/learn_gin/cleanup_log.txt
+rm proj/learn_gin/cleanup_log.txt
+l
+v .duckdb/
+s surreal
+curl --proto '=https' --tlsv1.2 -sSf https://install.surrealdb.com | sh
+su 
+surreal-v2.3.4.linux-arm64.tgz
+l
+l --du
+rm -rf go/
+mv go/ --progress ./termux-junk-cleaner/
+l
+rm -rf go/
+mv go/  ./termux-junk-cleaner/ --progress 
+..
+l -l
+l -l go
+l -l go/
+l -l termux-junk-cleaner/
+l -l 
+fzf --multi
+l
+cd termux-junk-cleaner/
+l
+./a.sh
+rm a.sh
+rm TJClogo.png
+rm .gitignore
+rm .gitignore .git/ 
+rm  .git/ 
+rm  .git/  -rf
+chmod -R 777 termux-junk-cleaner/
+rm -rf go/
+l
+rm -rf termux-junk-cleaner/
+up
+go -h
+../proj/gamego/
+go clean 
+go run .
+go c
+go help
+go c -h
+s yazi
+i yazi/stable
+ya 
+yazi 
+yazi -h
+ya pkg
+ya pkg help
+ya pkg list
+ya pkg add nix
+ya pkg add ~/.config/nvim/
+ya pkg add ~/.config/nvim/z
+v main.go
+v main.go
+rm -rf .wget-hsts .surrealdb/ .duckdb_history surreal-v2.3.4.linux-arm64.tgz
+l
+rm .sqlite_history
+z .ssh/
+l
+v authorized_keys
+../n.nu
+nu n.nu
+nu n.nu|describe 
+exit 
+v ../n.nu
+start authorized_keys
+,.
+..
+glob 
+glob --help 
+glob **/*.{rs,toml} --depth 2
+glob **/*.{rs,toml} --depth 1
+glob **/*.{rs,toml} --depth 3
+help ls
+help man
+help nvim
+help neovim
+help vim
+help commands --help 
+help commands vim
+help commands nvim
+v
+z nv
+z co nv
+z ~/.config/nvim/
+v lua/config/autocmds.lua lua/config/lazy.lua
+z
+.
+.!!!!!!
+.!!!!!!!!!!
+s bun
+up
+s bun
+curl -f https://bunster.netlify.app/install.sh | bash
+bugpoint -h
+exit 
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+rm cleanup_log.txt
+exit 
+z proj/learn_gin/
+l
+rm -rf c go.work tcp/ 
+l
+l cmd/ internal/
+../gamego/
+go r
+go run .
+v main.go
+2 ** 3
+u 
+up
+s ama
+s q
+i qalc/stable
+qalc 
+qalc -h
+qalc -c
+curl --proto '=https' --tlsv1.2 -sSf "https://desktop-release.q.us-east-1.amazonaws.com/latest/q-aarch64-linux.zip" -o "q.zip"
+am -h
+l
+unzip q.zip
+./q/install.sh
+z q/
+l
+v README
+..
+rm q/ q.zip -rf
+l
+s amason
+s nnn
+i nnn/stable
+nnn 
+i lf
+lf
+i glow
+glow
+glow -h
+glow completion
+glow completion bash
+# bash completion V2 for glow                                 -*- shell-script -*-<\n><\n>__glow_debug()<\n>{<\n>    if [[ -n ${BASH_COMP_DEBUG_FILE-} ]]; then<\n>        echo "$*" >> "${BASH_COMP_DEBUG_FILE}"<\n>    fi<\n>}<\n><\n># Macs have bash3 for which the bash-completion package doesn't include<\n># _init_completion. This is a minimal version of that function.<\n>__glow_init_completion()<\n>{<\n>    COMPREPLY=()<\n>    _get_comp_words_by_ref "$@" cur prev words cword<\n>}<\n><\n># This function calls the glow program to obtain the completion<\n># results and the directive.  It fills the 'out' and 'directive' vars.<\n>__glow_get_completion_results() {<\n>    local requestComp lastParam lastChar args<\n><\n>    # Prepare the command to request completions for the program.<\n>    # Calling ${words[0]} instead of directly glow allows handling aliases<\n>    args=("${words[@]:1}")<\n>    requestComp="${words[0]} __complete ${args[*]}"<\n><\n>    lastParam=${words[$((${#words[@]}-1))]}<\n>    lastChar=${lastParam:$((${#lastParam}-1)):1}<\n>    __glow_debug "lastParam ${lastParam}, lastChar ${lastChar}"<\n><\n>    if [[ -z ${cur} && ${lastChar} != = ]]; then<\n>        # If the last parameter is complete (there is a space following it)<\n>        # We add an extra empty parameter so we can indicate this to the go method.<\n>        __glow_debug "Adding extra empty parameter"<\n>        requestComp="${requestComp} ''"<\n>    fi<\n><\n>    # When completing a flag with an = (e.g., glow -n=<TAB>)<\n>    # bash focuses on the part after the =, so we need to remove<\n>    # the flag part from $cur<\n>    if [[ ${cur} == -*=* ]]; then<\n>        cur="${cur#*=}"<\n>    fi<\n><\n>    __glow_debug "Calling ${requestComp}"<\n>    # Use eval to handle any environment variables and such<\n>    out=$(eval "${requestComp}" 2>/dev/null)<\n><\n>    # Extract the directive integer at the very end of the output following a colon (:)<\n>    directive=${out##*:}<\n>    # Remove the directive<\n>    out=${out%:*}<\n>    if [[ ${directive} == "${out}" ]]; then<\n>        # There is not directive specified<\n>        directive=0<\n>    fi<\n>    __glow_debug "The completion directive is: ${directive}"<\n>    __glow_debug "The completions are: ${out}"<\n>}<\n><\n>__glow_process_completion_results() {<\n>    local shellCompDirectiveError=1<\n>    local shellCompDirectiveNoSpace=2<\n>    local shellCompDirectiveNoFileComp=4<\n>    local shellCompDirectiveFilterFileExt=8<\n>    local shellCompDirectiveFilterDirs=16<\n>    local shellCompDirectiveKeepOrder=32<\n><\n>    if (((directive & shellCompDirectiveError) != 0)); then<\n>        # Error code.  No completion.<\n>        __glow_debug "Received error from custom completion go code"<\n>        return<\n>    else<\n>        if (((directive & shellCompDirectiveNoSpace) != 0)); then<\n>            if [[ $(type -t compopt) == builtin ]]; then<\n>                __glow_debug "Activating no space"<\n>                compopt -o nospace<\n>            else<\n>                __glow_debug "No space directive not supported in this version of bash"<\n>            fi<\n>        fi<\n>        if (((directive & shellCompDirectiveKeepOrder) != 0)); then<\n>            if [[ $(type -t compopt) == builtin ]]; then<\n>                # no sort isn't supported for bash less than < 4.4<\n>                if [[ ${BASH_VERSINFO[0]} -lt 4 || ( ${BASH_VERSINFO[0]} -eq 4 && ${BASH_VERSINFO[1]} -lt 4 ) ]]; then<\n>                    __glow_debug "No sort directive not supported in this version of bash"<\n>                else<\n>                    __glow_debug "Activating keep order"<\n>                    compopt -o nosort<\n>                fi<\n>            else<\n>                __glow_debug "No sort directive not supported in this version of bash"<\n>            fi<\n>        fi<\n>        if (((directive & shellCompDirectiveNoFileComp) != 0)); then<\n>            if [[ $(type -t compopt) == builtin ]]; then<\n>                __glow_debug "Activating no file completion"<\n>                compopt +o default<\n>            else<\n>                __glow_debug "No file completion directive not supported in this version of bash"<\n>            fi<\n>        fi<\n>    fi<\n><\n>    # Separate activeHelp from normal completions<\n>    local completions=()<\n>    local activeHelp=()<\n>    __glow_extract_activeHelp<\n><\n>    if (((directive & shellCompDirectiveFilterFileExt) != 0)); then<\n>        # File extension filtering<\n>        local fullFilter="" filter filteringCmd<\n><\n>        # Do not use quotes around the $completions variable or else newline<\n>        # characters will be kept.<\n>        for filter in ${completions[*]}; do<\n>            fullFilter+="$filter|"<\n>        done<\n><\n>        filteringCmd="_filedir $fullFilter"<\n>        __glow_debug "File filtering command: $filteringCmd"<\n>        $filteringCmd<\n>    elif (((directive & shellCompDirectiveFilterDirs) != 0)); then<\n>        # File completion for directories only<\n><\n>        local subdir<\n>        subdir=${completions[0]}<\n>        if [[ -n $subdir ]]; then<\n>            __glow_debug "Listing directories in $subdir"<\n>            pushd "$subdir" >/dev/null 2>&1 && _filedir -d && popd >/dev/null 2>&1 || return<\n>        else<\n>            __glow_debug "Listing directories in ."<\n>            _filedir -d<\n>        fi<\n>    else<\n>        __glow_handle_completion_types<\n>    fi<\n><\n>    __glow_handle_special_char "$cur" :<\n>    __glow_handle_special_char "$cur" =<\n><\n>    # Print the activeHelp statements before we finish<\n>    __glow_handle_activeHelp<\n>}<\n><\n>__glow_handle_activeHelp() {<\n>    # Print the activeHelp statements<\n>    if ((${#activeHelp[*]} != 0)); then<\n>        if [ -z $COMP_TYPE ]; then<\n>            # Bash v3 does not set the COMP_TYPE variable.<\n>            printf "\n";<\n>            printf "%s\n" "${activeHelp[@]}"<\n>            printf "\n"<\n>            __glow_reprint_commandLine<\n>            return<\n>        fi<\n><\n>        # Only print ActiveHelp on the second TAB press<\n>        if [ $COMP_TYPE -eq 63 ]; then<\n>            printf "\n"<\n>            printf "%s\n" "${activeHelp[@]}"<\n><\n>            if ((${#COMPREPLY[*]} == 0)); then<\n>                # When there are no completion choices from the program, file completion<\n>                # may kick in if the program has not disabled it; in such a case, we want<\n>                # to know if any files will match what the user typed, so that we know if<\n>                # there will be completions presented, so that we know how to handle ActiveHelp.<\n>                # To find out, we actually trigger the file completion ourselves;<\n>                # the call to _filedir will fill COMPREPLY if files match.<\n>                if (((directive & shellCompDirectiveNoFileComp) == 0)); then<\n>                    __glow_debug "Listing files"<\n>                    _filedir<\n>                fi<\n>            fi<\n><\n>            if ((${#COMPREPLY[*]} != 0)); then<\n>                # If there are completion choices to be shown, print a delimiter.<\n>                # Re-printing the command-line will automatically be done<\n>                # by the shell when it prints the completion choices.<\n>                printf -- "--"<\n>            else<\n>                # When there are no completion choices at all, we need<\n>                # to re-print the command-line since the shell will<\n>                # not be doing it itself.<\n>                __glow_reprint_commandLine<\n>            fi<\n>        elif [ $COMP_TYPE -eq 37 ] || [ $COMP_TYPE -eq 42 ]; then<\n>            # For completion type: menu-complete/menu-complete-backward and insert-completions<\n>            # the completions are immediately inserted into the command-line, so we first<\n>            # print the activeHelp message and reprint the command-line since the shell won't.<\n>            printf "\n"<\n>            printf "%s\n" "${activeHelp[@]}"<\n><\n>            __glow_reprint_commandLine<\n>        fi<\n>    fi<\n>}<\n><\n>__glow_reprint_commandLine() {<\n>    # The prompt format is only available from bash 4.4.<\n>    # We test if it is available before using it.<\n>    if (x=${PS1@P}) 2> /dev/null; then<\n>        printf "%s" "${PS1@P}${COMP_LINE[@]}"<\n>    else<\n>        # Can't print the prompt.  Just print the<\n>        # text the user had typed, it is workable enough.<\n>        printf "%s" "${COMP_LINE[@]}"<\n>    fi<\n>}<\n><\n># Separate activeHelp lines from real completions.<\n># Fills the $activeHelp and $completions arrays.<\n>__glow_extract_activeHelp() {<\n>    local activeHelpMarker="_activeHelp_ "<\n>    local endIndex=${#activeHelpMarker}<\n><\n>    while IFS='' read -r comp; do<\n>        [[ -z $comp ]] && continue<\n><\n>        if [[ ${comp:0:endIndex} == $activeHelpMarker ]]; then<\n>            comp=${comp:endIndex}<\n>            __glow_debug "ActiveHelp found: $comp"<\n>            if [[ -n $comp ]]; then<\n>                activeHelp+=("$comp")<\n>            fi<\n>        else<\n>            # Not an activeHelp line but a normal completion<\n>            completions+=("$comp")<\n>        fi<\n>    done <<<"${out}"<\n>}<\n><\n>__glow_handle_completion_types() {<\n>    __glow_debug "__glow_handle_completion_types: COMP_TYPE is $COMP_TYPE"<\n><\n>    case $COMP_TYPE in<\n>    37|42)<\n>        # Type: menu-complete/menu-complete-backward and insert-completions<\n>        # If the user requested inserting one completion at a time, or all<\n>        # completions at once on the command-line we must remove the descriptions.<\n>        # https://github.com/spf13/cobra/issues/1508<\n><\n>        # If there are no completions, we don't need to do anything<\n>        (( ${#completions[@]} == 0 )) && return 0<\n><\n>        local tab=$'\t'<\n><\n>        # Strip any description and escape the completion to handled special characters<\n>        IFS=$'\n' read -ra completions -d '' < <(printf "%q\n" "${completions[@]%%$tab*}")<\n><\n>        # Only consider the completions that match<\n>        IFS=$'\n' read -ra COMPREPLY -d '' < <(IFS=$'\n'; compgen -W "${completions[*]}" -- "${cur}")<\n><\n>        # compgen looses the escaping so we need to escape all completions again since they will<\n>        # all be inserted on the command-line.<\n>        IFS=$'\n' read -ra COMPREPLY -d '' < <(printf "%q\n" "${COMPREPLY[@]}")<\n>        ;;<\n><\n>    *)<\n>        # Type: complete (normal completion)<\n>        __glow_handle_standard_completion_case<\n>        ;;<\n>    esac<\n>}<\n><\n>__glow_handle_standard_completion_case() {<\n>    local tab=$'\t'<\n><\n>    # If there are no completions, we don't need to do anything<\n>    (( ${#completions[@]} == 0 )) && return 0<\n><\n>    # Short circuit to optimize if we don't have descriptions<\n>    if [[ "${completions[*]}" != *$tab* ]]; then<\n>        # First, escape the completions to handle special characters<\n>        IFS=$'\n' read -ra completions -d '' < <(printf "%q\n" "${completions[@]}")<\n>        # Only consider the completions that match what the user typed<\n>        IFS=$'\n' read -ra COMPREPLY -d '' < <(IFS=$'\n'; compgen -W "${completions[*]}" -- "${cur}")<\n><\n>        # compgen looses the escaping so, if there is only a single completion, we need to<\n>        # escape it again because it will be inserted on the command-line.  If there are multiple<\n>        # completions, we don't want to escape them because they will be printed in a list<\n>        # and we don't want to show escape characters in that list.<\n>        if (( ${#COMPREPLY[@]} == 1 )); then<\n>            COMPREPLY[0]=$(printf "%q" "${COMPREPLY[0]}")<\n>        fi<\n>        return 0<\n>    fi<\n><\n>    local longest=0<\n>    local compline<\n>    # Look for the longest completion so that we can format things nicely<\n>    while IFS='' read -r compline; do<\n>        [[ -z $compline ]] && continue<\n><\n>        # Before checking if the completion matches what the user typed,<\n>        # we need to strip any description and escape the completion to handle special<\n>        # characters because those escape characters are part of what the user typed.<\n>        # Don't call "printf" in a sub-shell because it will be much slower<\n>        # since we are in a loop.<\n>        printf -v comp "%q" "${compline%%$tab*}" &>/dev/null || comp=$(printf "%q" "${compline%%$tab*}")<\n><\n>        # Only consider the completions that match<\n>        [[ $comp == "$cur"* ]] || continue<\n><\n>        # The completions matches.  Add it to the list of full completions including<\n>        # its description.  We don't escape the completion because it may get printed<\n>        # in a list if there are more than one and we don't want show escape characters<\n>        # in that list.<\n>        COMPREPLY+=("$compline")<\n><\n>        # Strip any description before checking the length, and again, don't escape<\n>        # the completion because this length is only used when printing the completions<\n>        # in a list and we don't want show escape characters in that list.<\n>        comp=${compline%%$tab*}<\n>        if ((${#comp}>longest)); then<\n>            longest=${#comp}<\n>        fi<\n>    done < <(printf "%s\n" "${completions[@]}")<\n><\n>    # If there is a single completion left, remove the description text and escape any special characters<\n>    if ((${#COMPREPLY[*]} == 1)); then<\n>        __glow_debug "COMPREPLY[0]: ${COMPREPLY[0]}"<\n>        COMPREPLY[0]=$(printf "%q" "${COMPREPLY[0]%%$tab*}")<\n>        __glow_debug "Removed description from single completion, which is now: ${COMPREPLY[0]}"<\n>    else<\n>        # Format the descriptions<\n>        __glow_format_comp_descriptions $longest<\n>    fi<\n>}<\n><\n>__glow_handle_special_char()<\n>{<\n>    local comp="$1"<\n>    local char=$2<\n>    if [[ "$comp" == *${char}* && "$COMP_WORDBREAKS" == *${char}* ]]; then<\n>        local word=${comp%"${comp##*${char}}"}<\n>        local idx=${#COMPREPLY[*]}<\n>        while ((--idx >= 0)); do<\n>            COMPREPLY[idx]=${COMPREPLY[idx]#"$word"}<\n>        done<\n>    fi<\n>}<\n><\n>__glow_format_comp_descriptions()<\n>{<\n>    local tab=$'\t'<\n>    local comp desc maxdesclength<\n>    local longest=$1<\n><\n>    local i ci<\n>    for ci in ${!COMPREPLY[*]}; do<\n>        comp=${COMPREPLY[ci]}<\n>        # Properly format the description string which follows a tab character if there is one<\n>        if [[ "$comp" == *$tab* ]]; then<\n>            __glow_debug "Original comp: $comp"<\n>            desc=${comp#*$tab}<\n>            comp=${comp%%$tab*}<\n><\n>            # $COLUMNS stores the current shell width.<\n>            # Remove an extra 4 because we add 2 spaces and 2 parentheses.<\n>            maxdesclength=$(( COLUMNS - longest - 4 ))<\n><\n>            # Make sure we can fit a description of at least 8 characters<\n>            # if we are to align the descriptions.<\n>            if ((maxdesclength > 8)); then<\n>                # Add the proper number of spaces to align the descriptions<\n>                for ((i = ${#comp} ; i < longest ; i++)); do<\n>                    comp+=" "<\n>                done<\n>            else<\n>                # Don't pad the descriptions so we can fit more text after the completion<\n>                maxdesclength=$(( COLUMNS - ${#comp} - 4 ))<\n>            fi<\n><\n>            # If there is enough space for any description text,<\n>            # truncate the descriptions that are too long for the shell width<\n>            if ((maxdesclength > 0)); then<\n>                if ((${#desc} > maxdesclength)); then<\n>                    desc=${desc:0:$(( maxdesclength - 1 ))}<\n>                    desc+="…"<\n>                fi<\n>                comp+="  ($desc)"<\n>            fi<\n>            COMPREPLY[ci]=$comp<\n>            __glow_debug "Final comp: $comp"<\n>        fi<\n>    done<\n>}<\n><\n>__start_glow()<\n>{<\n>    local cur prev words cword split<\n><\n>    COMPREPLY=()<\n><\n>    # Call _init_completion from the bash-completion package<\n>    # to prepare the arguments properly<\n>    if declare -F _init_completion >/dev/null 2>&1; then<\n>        _init_completion -n =: || return<\n>    else<\n>        __glow_init_completion -n =: || return<\n>    fi<\n><\n>    __glow_debug<\n>    __glow_debug "========= starting completion logic =========="<\n>    __glow_debug "cur is ${cur}, words[*] is ${words[*]}, #words[@] is ${#words[@]}, cword is $cword"<\n><\n>    # The user could have moved the cursor backwards on the command-line.<\n>    # We need to trigger completion from the $cword location, so we need<\n>    # to truncate the command-line ($words) up to the $cword location.<\n>    words=("${words[@]:0:$cword+1}")<\n>    __glow_debug "Truncated words[*]: ${words[*]},"<\n><\n>    local out directive<\n>    __glow_get_completion_results<\n>    __glow_process_completion_results<\n>}<\n><\n>if [[ $(type -t compopt) = "builtin" ]]; then<\n>    complete -o default -F __start_glow glow<\n>else<\n>    complete -o default -o nospace -F __start_glow glow<\n>fi<\n><\n># ex: ts=4 sw=4 et filetype=sh
+bash # bash completion V2 for glow                                 -*- shell-script -*-<\n><\n>__glow_debug()<\n>{<\n>    if [[ -n ${BASH_COMP_DEBUG_FILE-} ]]; then<\n>        echo "$*" >> "${BASH_COMP_DEBUG_FILE}"<\n>    fi<\n>}<\n><\n># Macs have bash3 for which the bash-completion package doesn't include<\n># _init_completion. This is a minimal version of that function.<\n>__glow_init_completion()<\n>{<\n>    COMPREPLY=()<\n>    _get_comp_words_by_ref "$@" cur prev words cword<\n>}<\n><\n># This function calls the glow program to obtain the completion<\n># results and the directive.  It fills the 'out' and 'directive' vars.<\n>__glow_get_completion_results() {<\n>    local requestComp lastParam lastChar args<\n><\n>    # Prepare the command to request completions for the program.<\n>    # Calling ${words[0]} instead of directly glow allows handling aliases<\n>    args=("${words[@]:1}")<\n>    requestComp="${words[0]} __complete ${args[*]}"<\n><\n>    lastParam=${words[$((${#words[@]}-1))]}<\n>    lastChar=${lastParam:$((${#lastParam}-1)):1}<\n>    __glow_debug "lastParam ${lastParam}, lastChar ${lastChar}"<\n><\n>    if [[ -z ${cur} && ${lastChar} != = ]]; then<\n>        # If the last parameter is complete (there is a space following it)<\n>        # We add an extra empty parameter so we can indicate this to the go method.<\n>        __glow_debug "Adding extra empty parameter"<\n>        requestComp="${requestComp} ''"<\n>    fi<\n><\n>    # When completing a flag with an = (e.g., glow -n=<TAB>)<\n>    # bash focuses on the part after the =, so we need to remove<\n>    # the flag part from $cur<\n>    if [[ ${cur} == -*=* ]]; then<\n>        cur="${cur#*=}"<\n>    fi<\n><\n>    __glow_debug "Calling ${requestComp}"<\n>    # Use eval to handle any environment variables and such<\n>    out=$(eval "${requestComp}" 2>/dev/null)<\n><\n>    # Extract the directive integer at the very end of the output following a colon (:)<\n>    directive=${out##*:}<\n>    # Remove the directive<\n>    out=${out%:*}<\n>    if [[ ${directive} == "${out}" ]]; then<\n>        # There is not directive specified<\n>        directive=0<\n>    fi<\n>    __glow_debug "The completion directive is: ${directive}"<\n>    __glow_debug "The completions are: ${out}"<\n>}<\n><\n>__glow_process_completion_results() {<\n>    local shellCompDirectiveError=1<\n>    local shellCompDirectiveNoSpace=2<\n>    local shellCompDirectiveNoFileComp=4<\n>    local shellCompDirectiveFilterFileExt=8<\n>    local shellCompDirectiveFilterDirs=16<\n>    local shellCompDirectiveKeepOrder=32<\n><\n>    if (((directive & shellCompDirectiveError) != 0)); then<\n>        # Error code.  No completion.<\n>        __glow_debug "Received error from custom completion go code"<\n>        return<\n>    else<\n>        if (((directive & shellCompDirectiveNoSpace) != 0)); then<\n>            if [[ $(type -t compopt) == builtin ]]; then<\n>                __glow_debug "Activating no space"<\n>                compopt -o nospace<\n>            else<\n>                __glow_debug "No space directive not supported in this version of bash"<\n>            fi<\n>        fi<\n>        if (((directive & shellCompDirectiveKeepOrder) != 0)); then<\n>            if [[ $(type -t compopt) == builtin ]]; then<\n>                # no sort isn't supported for bash less than < 4.4<\n>                if [[ ${BASH_VERSINFO[0]} -lt 4 || ( ${BASH_VERSINFO[0]} -eq 4 && ${BASH_VERSINFO[1]} -lt 4 ) ]]; then<\n>                    __glow_debug "No sort directive not supported in this version of bash"<\n>                else<\n>                    __glow_debug "Activating keep order"<\n>                    compopt -o nosort<\n>                fi<\n>            else<\n>                __glow_debug "No sort directive not supported in this version of bash"<\n>            fi<\n>        fi<\n>        if (((directive & shellCompDirectiveNoFileComp) != 0)); then<\n>            if [[ $(type -t compopt) == builtin ]]; then<\n>                __glow_debug "Activating no file completion"<\n>                compopt +o default<\n>            else<\n>                __glow_debug "No file completion directive not supported in this version of bash"<\n>            fi<\n>        fi<\n>    fi<\n><\n>    # Separate activeHelp from normal completions<\n>    local completions=()<\n>    local activeHelp=()<\n>    __glow_extract_activeHelp<\n><\n>    if (((directive & shellCompDirectiveFilterFileExt) != 0)); then<\n>        # File extension filtering<\n>        local fullFilter="" filter filteringCmd<\n><\n>        # Do not use quotes around the $completions variable or else newline<\n>        # characters will be kept.<\n>        for filter in ${completions[*]}; do<\n>            fullFilter+="$filter|"<\n>        done<\n><\n>        filteringCmd="_filedir $fullFilter"<\n>        __glow_debug "File filtering command: $filteringCmd"<\n>        $filteringCmd<\n>    elif (((directive & shellCompDirectiveFilterDirs) != 0)); then<\n>        # File completion for directories only<\n><\n>        local subdir<\n>        subdir=${completions[0]}<\n>        if [[ -n $subdir ]]; then<\n>            __glow_debug "Listing directories in $subdir"<\n>            pushd "$subdir" >/dev/null 2>&1 && _filedir -d && popd >/dev/null 2>&1 || return<\n>        else<\n>            __glow_debug "Listing directories in ."<\n>            _filedir -d<\n>        fi<\n>    else<\n>        __glow_handle_completion_types<\n>    fi<\n><\n>    __glow_handle_special_char "$cur" :<\n>    __glow_handle_special_char "$cur" =<\n><\n>    # Print the activeHelp statements before we finish<\n>    __glow_handle_activeHelp<\n>}<\n><\n>__glow_handle_activeHelp() {<\n>    # Print the activeHelp statements<\n>    if ((${#activeHelp[*]} != 0)); then<\n>        if [ -z $COMP_TYPE ]; then<\n>            # Bash v3 does not set the COMP_TYPE variable.<\n>            printf "\n";<\n>            printf "%s\n" "${activeHelp[@]}"<\n>            printf "\n"<\n>            __glow_reprint_commandLine<\n>            return<\n>        fi<\n><\n>        # Only print ActiveHelp on the second TAB press<\n>        if [ $COMP_TYPE -eq 63 ]; then<\n>            printf "\n"<\n>            printf "%s\n" "${activeHelp[@]}"<\n><\n>            if ((${#COMPREPLY[*]} == 0)); then<\n>                # When there are no completion choices from the program, file completion<\n>                # may kick in if the program has not disabled it; in such a case, we want<\n>                # to know if any files will match what the user typed, so that we know if<\n>                # there will be completions presented, so that we know how to handle ActiveHelp.<\n>                # To find out, we actually trigger the file completion ourselves;<\n>                # the call to _filedir will fill COMPREPLY if files match.<\n>                if (((directive & shellCompDirectiveNoFileComp) == 0)); then<\n>                    __glow_debug "Listing files"<\n>                    _filedir<\n>                fi<\n>            fi<\n><\n>            if ((${#COMPREPLY[*]} != 0)); then<\n>                # If there are completion choices to be shown, print a delimiter.<\n>                # Re-printing the command-line will automatically be done<\n>                # by the shell when it prints the completion choices.<\n>                printf -- "--"<\n>            else<\n>                # When there are no completion choices at all, we need<\n>                # to re-print the command-line since the shell will<\n>                # not be doing it itself.<\n>                __glow_reprint_commandLine<\n>            fi<\n>        elif [ $COMP_TYPE -eq 37 ] || [ $COMP_TYPE -eq 42 ]; then<\n>            # For completion type: menu-complete/menu-complete-backward and insert-completions<\n>            # the completions are immediately inserted into the command-line, so we first<\n>            # print the activeHelp message and reprint the command-line since the shell won't.<\n>            printf "\n"<\n>            printf "%s\n" "${activeHelp[@]}"<\n><\n>            __glow_reprint_commandLine<\n>        fi<\n>    fi<\n>}<\n><\n>__glow_reprint_commandLine() {<\n>    # The prompt format is only available from bash 4.4.<\n>    # We test if it is available before using it.<\n>    if (x=${PS1@P}) 2> /dev/null; then<\n>        printf "%s" "${PS1@P}${COMP_LINE[@]}"<\n>    else<\n>        # Can't print the prompt.  Just print the<\n>        # text the user had typed, it is workable enough.<\n>        printf "%s" "${COMP_LINE[@]}"<\n>    fi<\n>}<\n><\n># Separate activeHelp lines from real completions.<\n># Fills the $activeHelp and $completions arrays.<\n>__glow_extract_activeHelp() {<\n>    local activeHelpMarker="_activeHelp_ "<\n>    local endIndex=${#activeHelpMarker}<\n><\n>    while IFS='' read -r comp; do<\n>        [[ -z $comp ]] && continue<\n><\n>        if [[ ${comp:0:endIndex} == $activeHelpMarker ]]; then<\n>            comp=${comp:endIndex}<\n>            __glow_debug "ActiveHelp found: $comp"<\n>            if [[ -n $comp ]]; then<\n>                activeHelp+=("$comp")<\n>            fi<\n>        else<\n>            # Not an activeHelp line but a normal completion<\n>            completions+=("$comp")<\n>        fi<\n>    done <<<"${out}"<\n>}<\n><\n>__glow_handle_completion_types() {<\n>    __glow_debug "__glow_handle_completion_types: COMP_TYPE is $COMP_TYPE"<\n><\n>    case $COMP_TYPE in<\n>    37|42)<\n>        # Type: menu-complete/menu-complete-backward and insert-completions<\n>        # If the user requested inserting one completion at a time, or all<\n>        # completions at once on the command-line we must remove the descriptions.<\n>        # https://github.com/spf13/cobra/issues/1508<\n><\n>        # If there are no completions, we don't need to do anything<\n>        (( ${#completions[@]} == 0 )) && return 0<\n><\n>        local tab=$'\t'<\n><\n>        # Strip any description and escape the completion to handled special characters<\n>        IFS=$'\n' read -ra completions -d '' < <(printf "%q\n" "${completions[@]%%$tab*}")<\n><\n>        # Only consider the completions that match<\n>        IFS=$'\n' read -ra COMPREPLY -d '' < <(IFS=$'\n'; compgen -W "${completions[*]}" -- "${cur}")<\n><\n>        # compgen looses the escaping so we need to escape all completions again since they will<\n>        # all be inserted on the command-line.<\n>        IFS=$'\n' read -ra COMPREPLY -d '' < <(printf "%q\n" "${COMPREPLY[@]}")<\n>        ;;<\n><\n>    *)<\n>        # Type: complete (normal completion)<\n>        __glow_handle_standard_completion_case<\n>        ;;<\n>    esac<\n>}<\n><\n>__glow_handle_standard_completion_case() {<\n>    local tab=$'\t'<\n><\n>    # If there are no completions, we don't need to do anything<\n>    (( ${#completions[@]} == 0 )) && return 0<\n><\n>    # Short circuit to optimize if we don't have descriptions<\n>    if [[ "${completions[*]}" != *$tab* ]]; then<\n>        # First, escape the completions to handle special characters<\n>        IFS=$'\n' read -ra completions -d '' < <(printf "%q\n" "${completions[@]}")<\n>        # Only consider the completions that match what the user typed<\n>        IFS=$'\n' read -ra COMPREPLY -d '' < <(IFS=$'\n'; compgen -W "${completions[*]}" -- "${cur}")<\n><\n>        # compgen looses the escaping so, if there is only a single completion, we need to<\n>        # escape it again because it will be inserted on the command-line.  If there are multiple<\n>        # completions, we don't want to escape them because they will be printed in a list<\n>        # and we don't want to show escape characters in that list.<\n>        if (( ${#COMPREPLY[@]} == 1 )); then<\n>            COMPREPLY[0]=$(printf "%q" "${COMPREPLY[0]}")<\n>        fi<\n>        return 0<\n>    fi<\n><\n>    local longest=0<\n>    local compline<\n>    # Look for the longest completion so that we can format things nicely<\n>    while IFS='' read -r compline; do<\n>        [[ -z $compline ]] && continue<\n><\n>        # Before checking if the completion matches what the user typed,<\n>        # we need to strip any description and escape the completion to handle special<\n>        # characters because those escape characters are part of what the user typed.<\n>        # Don't call "printf" in a sub-shell because it will be much slower<\n>        # since we are in a loop.<\n>        printf -v comp "%q" "${compline%%$tab*}" &>/dev/null || comp=$(printf "%q" "${compline%%$tab*}")<\n><\n>        # Only consider the completions that match<\n>        [[ $comp == "$cur"* ]] || continue<\n><\n>        # The completions matches.  Add it to the list of full completions including<\n>        # its description.  We don't escape the completion because it may get printed<\n>        # in a list if there are more than one and we don't want show escape characters<\n>        # in that list.<\n>        COMPREPLY+=("$compline")<\n><\n>        # Strip any description before checking the length, and again, don't escape<\n>        # the completion because this length is only used when printing the completions<\n>        # in a list and we don't want show escape characters in that list.<\n>        comp=${compline%%$tab*}<\n>        if ((${#comp}>longest)); then<\n>            longest=${#comp}<\n>        fi<\n>    done < <(printf "%s\n" "${completions[@]}")<\n><\n>    # If there is a single completion left, remove the description text and escape any special characters<\n>    if ((${#COMPREPLY[*]} == 1)); then<\n>        __glow_debug "COMPREPLY[0]: ${COMPREPLY[0]}"<\n>        COMPREPLY[0]=$(printf "%q" "${COMPREPLY[0]%%$tab*}")<\n>        __glow_debug "Removed description from single completion, which is now: ${COMPREPLY[0]}"<\n>    else<\n>        # Format the descriptions<\n>        __glow_format_comp_descriptions $longest<\n>    fi<\n>}<\n><\n>__glow_handle_special_char()<\n>{<\n>    local comp="$1"<\n>    local char=$2<\n>    if [[ "$comp" == *${char}* && "$COMP_WORDBREAKS" == *${char}* ]]; then<\n>        local word=${comp%"${comp##*${char}}"}<\n>        local idx=${#COMPREPLY[*]}<\n>        while ((--idx >= 0)); do<\n>            COMPREPLY[idx]=${COMPREPLY[idx]#"$word"}<\n>        done<\n>    fi<\n>}<\n><\n>__glow_format_comp_descriptions()<\n>{<\n>    local tab=$'\t'<\n>    local comp desc maxdesclength<\n>    local longest=$1<\n><\n>    local i ci<\n>    for ci in ${!COMPREPLY[*]}; do<\n>        comp=${COMPREPLY[ci]}<\n>        # Properly format the description string which follows a tab character if there is one<\n>        if [[ "$comp" == *$tab* ]]; then<\n>            __glow_debug "Original comp: $comp"<\n>            desc=${comp#*$tab}<\n>            comp=${comp%%$tab*}<\n><\n>            # $COLUMNS stores the current shell width.<\n>            # Remove an extra 4 because we add 2 spaces and 2 parentheses.<\n>            maxdesclength=$(( COLUMNS - longest - 4 ))<\n><\n>            # Make sure we can fit a description of at least 8 characters<\n>            # if we are to align the descriptions.<\n>            if ((maxdesclength > 8)); then<\n>                # Add the proper number of spaces to align the descriptions<\n>                for ((i = ${#comp} ; i < longest ; i++)); do<\n>                    comp+=" "<\n>                done<\n>            else<\n>                # Don't pad the descriptions so we can fit more text after the completion<\n>                maxdesclength=$(( COLUMNS - ${#comp} - 4 ))<\n>            fi<\n><\n>            # If there is enough space for any description text,<\n>            # truncate the descriptions that are too long for the shell width<\n>            if ((maxdesclength > 0)); then<\n>                if ((${#desc} > maxdesclength)); then<\n>                    desc=${desc:0:$(( maxdesclength - 1 ))}<\n>                    desc+="…"<\n>                fi<\n>                comp+="  ($desc)"<\n>            fi<\n>            COMPREPLY[ci]=$comp<\n>            __glow_debug "Final comp: $comp"<\n>        fi<\n>    done<\n>}<\n><\n>__start_glow()<\n>{<\n>    local cur prev words cword split<\n><\n>    COMPREPLY=()<\n><\n>    # Call _init_completion from the bash-completion package<\n>    # to prepare the arguments properly<\n>    if declare -F _init_completion >/dev/null 2>&1; then<\n>        _init_completion -n =: || return<\n>    else<\n>        __glow_init_completion -n =: || return<\n>    fi<\n><\n>    __glow_debug<\n>    __glow_debug "========= starting completion logic =========="<\n>    __glow_debug "cur is ${cur}, words[*] is ${words[*]}, #words[@] is ${#words[@]}, cword is $cword"<\n><\n>    # The user could have moved the cursor backwards on the command-line.<\n>    # We need to trigger completion from the $cword location, so we need<\n>    # to truncate the command-line ($words) up to the $cword location.<\n>    words=("${words[@]:0:$cword+1}")<\n>    __glow_debug "Truncated words[*]: ${words[*]},"<\n><\n>    local out directive<\n>    __glow_get_completion_results<\n>    __glow_process_completion_results<\n>}<\n><\n>if [[ $(type -t compopt) = "builtin" ]]; then<\n>    complete -o default -F __start_glow glow<\n>else<\n>    complete -o default -o nospace -F __start_glow glow<\n>fi<\n><\n># ex: ts=4 sw=4 et filetype=sh
+bash
+i eza
+eza 
+eza -h
+eza --help
+i cowsay
+cowsay 
+cowsay hi
+cowthink  hi
+pkg uninstall cowsay
+eza --help
+eza --icons=always
+eza --icons=always --color=always
+eza --icons=always --color=always --tree
+eza --icons=always --color=always --tree ./termux-junk-cleaner/
+eza --icons=always --color=always --tree proj/js/
+i pipes
+i pipe
+i pip
+i toilet
+toilet 
+toilet hi
+toilet --help
+toilet 
+pkg uninstall toilet
+alias ls = eza --icons --group-directories-first --git<\n>alias ll = eza -l --icons --group-directories-first --git<\n>alias la = eza -la --icons --group-directories-first --git<\n>alias lt = eza -T --icons --git
+ls
+ll
+la
+lt
+alias ls = eza --icons --group-directories-first --git<\n>alias ll = eza -l --icons --group-directories-first --git<\n>alias la = eza -la --icons --group-directories-first --git<\n>alias lt = eza -T --icons --git
+ls proj/r/
+i figlet
+figlet 
+pkg uninstall figlet
+i macchina
+macchina 
+i pipes-sh
+bash 
+print 
+ls --icons
+ls --help
+ls --classify=always
+ls -R
+ls --help
+ls --git-repos
+ls --git-repos proj/r
+ls --git-repos proj/r --git
+ls --git-repos proj/r --all
+ls --git-repos proj/r --all --stdin
+s gh
+i mc/stable
+mc
+pkg uninstall mc
+lf
+ya 
+yat2m 
+help ya
+help commands ya
+help commands ^ya
+ya pkg -h
+ya pkg list
+ya pkg upgrade
+ya pkg add yazi-rs/plugins:git
+l
+yazi 
+ya pkg add yazi-rs/plugins:piper
+yazi 
+glow -w=$w -s=dark 
+glow 
+eza --gai
+eza --grid
+eza -l | lines | split column " " | table
+eza -l --icons| lines | split column " " | table
+ls | where type == Dir | select name size modified | table
+eza --long --all --recurse --level=1 --git --icons --json | from json | table
+eza --version
+eza -l | parse "{perm} {links} {user} {group} {size} {month} {day} {time} {name}" | table
+eza --icons -l | parse "{perm} {links} {user} {group} {size} {month} {day} {time} {name}" | table
+eza -l --all --git --icons | parse "{perm} {links} {user} {group} {size} {month} {day} {time} {name}" | table
+exa
+eza
+eza --icons
+eza --icons -recurse
+eza --icons -R
+eza --icons -T
+i texmath
+s tex
+zk
+zk new note
+zk new 
+mkdir note
+zk new note
+z note/
+zk init
+zk 
+l
+zk new note
+zk new "note"
+l
+zk graph
+zk new
+v .zk/
+cp .zk/templates/default.md .
+zk new
+v zqs3.md
+zk new
+nnn 
+go -v
+go version
+zk -h
+zk index
+zk list
+carapace --selfupdate
+$env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional<\n>mkdir ~/.cache/carapace<\n>carapace _carapace nushell | save --force ~/.cache/carapace/init.nu<\n><\n>#~/.config/nushell/config.nu<\n>source ~/.cache/carapace/init.nu
+$env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional<\n>mkdir ~/.cache/carapace<\n>carapace _carapace nushell | save --force ~/.cache/carapace/init.nu<\n><\n>#~/.config/nushell/config.nu<\n># source ~/.cache/carapace/init.nu
+source ~/.cache/carapace/init.nu
+zk -h
+carapace zoxide 
+let zoxide_completer = {|spans|<\n>    carapace zoxide nushell ...$spans | from json<\n>}
+i gh 
+apt autoremove 
+gh
+gh auth 
+gh auth login 
+l
+gh codespace 
+gh codespace code 
+gh codespace create 
+gh api classrooms 
+gh api classrooms/
+gh api graphql 
+z proj/
+./gamego/
+go run .
+source ~/.cache/carapace/init.nu
+eza --icons -T
+exit 
+exit
+source ~/.cache/carapace/init.nu
+def up [-h: int ] {<\n>  pkg update -h;<\n>  pkg upgrade ;<\n>}
+up 
+up -h 8
+exit
+config nu 
+exit
+v main.go
+exit
+every -s 
+exit
+exit 
+i ed 
+s ed 
+z proj/gamego/
+go run .
+l ~
+/opt
+i helix 
+hx
+z .con
+z helix/
+l
+z -
+z proj/gamego/
+z proj gamego
+hx main.go 
+hx
+z ~/.config/helix/
+l
+hx --health go
+go install golang.org/x/tools/gopls@latest
+hx --health go
+$env.PATH = ($env.PATH | split ';' | where { $_ != '' }) + [$(echo $HOME)/go/bin] | str join ';'
+let-env PATH = ($env.PATH | split ':') + [$(echo $HOME)/go/bin] | str join ':'
+../nvim/
+v 
+..
+which gopls
+exit 
+v
+hx --health go
+z proj gamego
+hx main.go 
+z .con
+exit 
+v main.go 
+v helix/
+hx --health go
+hx -vV
+hx --grammar fetch<\n>hx --grammar build
+hx --grammar fetch fo<\n>hx --grammar build go
+hx --grammar fetch go<\n>hx --grammar build go
+go clean 
+../go/
+l
+l --du
+go clean golsp
+go clean gopls
+which gopls
+rm -rf /data/data/com.termux/files/home/go/bin/gopls
+go clean 
+go clean gopls
+hx
+exit 
+nu
+exit 
+hx main.go 
+exit 
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+hx --grammar fetch 
+$env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional<\n>mkdir ~/.cache/carapace<\n>carapace _carapace nushell | save --force ~/.cache/carapace/init.nu<\n><\n>#~/.config/nushell/config.nu<\n># source ~/.cache/carapace/init.nu
+source ~/.cache/carapace/init.nu
+source ~/.config/nushell/config.nu
+hx main.go 
+hx --grammar fetch 
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+hx ~/.config/helix/languages.toml 
+apt autoremove 
+apt autoclean 
+pkg autoclean 
+hx --health go
+go install golang.org/x/tools/gopls@latest
+pkg uninstall  python 
+pkg uninstall  ed 
+pkg uninstall  gh 
+pkg uninstall  texmath
+pkg uninstall  mc/stable
+pkg uninstall  macchina
+pkg uninstall  figlet
+pkg uninstall  toilet
+pkg uninstall  lf
+pkg uninstall  eza
+pkg uninstall  qalc/stable
+pkg uninstall  nnn/stable
+apt autoclean 
+apt autoremove 
+pkg uninstall  duckdb
+go install golang.org/x/tools/gopls@latest
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+config env
+z ~/.config/
+cd ~/.config/
+v 
+vi
+exit 
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+go install golang.org/x/tools/gopls@latest
+figlet 
+pkg clean 
+pkg autoclean 
+pkg files 
+pkg list-installed 
+pkg uninstall zk glow  curlie stow clang lld llvm make nodejs perl libglvnd mesa vulkan-* libdrm libx* libwayland -y
+apt autoremove 
+go install golang.org/x/tools/gopls@latest
+i golang 
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+exit 
+apt install golang 
+go install golang.org/x/tools/gopls@latest
+hx --health go
+go install github.com/nametake/golangci-lint-langserver@latest
+go install github.com/go-delve/delve/cmd/dlv@latest
+go install mvdan.cc/gofumpt@latest
+hx --health go
+hx --grammar fetch go
+z ~/.config/helix/
+v
+hx --grammar fetch go
+rm -rf ~/.cache/helix/grammars
+hx --grammar clean
+hx 
+exit 
+hx
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+rm cleanup_log.txt
+hx --config 
+hx 
+hx
+z proj/
+l
+z learn_gin/
+z proj/gop/
+z proj/
+mkdir cl
+z cl/
+l
+hx main.c main.cpp main.cs
+clang main.c
+exit 
+c++ main.cpp
+c++ -h
+c++ --help
+c++ main.cpp   -###    
+exit 
+v main.c main.cs main.cpp
+z ../gamego/
+l
+hx
+i fzf
+rg main
+rg main --vimgrep 
+v main.go 
+go run .
+termux-notification --title "Hello" --content "From your app"<\n>termux-sms-send -n 12345678 "Hi from CLI app!"
+termux-am 
+termux-apps-info-env-variable 
+http get https://github.com/termux/termux-core-package/blob/master/site/pages/en/projects/docs/usage/utils/termux/shell/command/environment/termux-apps-info-env-variable.md
+http get https://github.com/termux/termux-core-package/blob/master/site/pages/en/projects/docs/usage/utils/termux/shell/command/environment/termux-apps-info-env-variable.md|to md 
+l
+rm *
+go mod init mytui
+go get github.com/charmbracelet/bubbletea
+go run .
+go tool golang.org/x/mobile/cmd/gomobile@latest
+go tool golang.org/x/mobile/cmd/gomobile
+exit 
+v main.go 
+go run .
+exit 
+../r
+l
+v src/
+z go
+z ~/go
+l
+z bin/
+l
+l --du
+./dlv
+dlv run 
+l
+../pkg/
+l
+./mod/
+l
+l --du
+free -h
+../..
+..
+l
+l --du | where size >= 50mb
+.config/
+l
+l --du 
+rm -rf helix/
+l
+l --du 
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+exit 
+exit 
+~/.termux/boot
+mkdir ~/.termux/boot
+z ~/.termux/boot
+l
+sshd -h
+sshd 
+exit 
+up
+s termux
+i termux-tools/stable
+i termux-tools/stable termux-api/stable 
+termux-api-start 
+up
+l
+termux-api-start -h
+ipmaddr 
+iptunnel 
+iptunnel -h/
+iptunnel -h
+iptunnel show
+exit 
+pkg install starship
+termux-api-stop 
+config nu 
+exit 
+v
+config nu 
+exit 
+termux-saf-ls 
+exit 
+v
+vi
+which gopls
+exit 
+rm -rf .config/
+mv .config.bkp/ .config
+ls
+ls -a
+rm -rf .dlv/ .mpd/ .ssh/ .local.2025.06.21-17.28.49.backup/ 
+ls -a
+mv .termux/ .termux.bkp
+mv .termux.2025.06.21-17.28.52.backup/ .termux
+e
+exit 
+e
+exit 
+l
+ls
+ls -a
+z .config/
+cd .config/
+ls
+zoxide 
+cd nushell/
+ls
+vi config.nu
+source config.nu
+vi env.nu
+git clone 
+cd
+git clone https://github.com/omerxx/dotfiles.git
+mv dotfiles/nvim/ .config/
+vi
+ls
+ls -a
+z
+config env 
+cd ~/.config/nushell/
+ls
+exit 
+ls
+v
+~/proj/
+ls
+cd blueprint/
+l
+v
+cd cmd/api/
+ls
+go run main.go
+exit 
+aie
+air
+make run 
+vi env.nu
+exit 
+config env 
+$env.EDITOR = "nvim"
+exit 
+exit 
+$env.CARAPACE_BRIDGES
+$env.config.cursor_shape
+$env.config.edit_mode
+$env.config.display_errors
+fh
+$env.config.explore
+$env.config.footer_mode
+$env.config.footer_mode = 50
+$env.config.footer_mode = 90
+$env.config.use_kitty_protocol
+$env.config.use_kitty_protocol = true 
+z
+z proj/
+l
+z blueprint/
+l
+../gamego/
+l
+rm a.*
+l
+install-in-mason lua-language-server
+exit 
+v main.go 
+go run main.go
+exit 
+go run main.go
+exit 
+go run main.go
+go get github.com/eiannone/keyboard
+go run main.go
+z g
+go run main.go
+exit 
+go run main.go
+go get -u github.com/nsf/termbox-go
+exit 
+go run main.go
+exit 
+z ~/downloads/
+l
+v ch416.jpg 
+pkg install exiftool
+exiftool ch416.jpg
+exiftool ch416.jpg --help
+exiftool  --help
+exiftool ch416.jpg 
+http get https://rimnow.net/w/sites/default/files/field/images/IMG_6102_0.jpeg
+l
+v IMG_6102_0.jpeg 
+exiftool 
+exiftool IMG_6102_0.jpeg
+exiftool IMG_6102_0.jpeg -b
+exiftool -GPSLatitude -GPSLongitude ch416.jpg
+exiftool -GPSLatitude -GPSLongitude IMG_6102_0.jpeg
+exiftool | grep -i gps
+exiftool -gps:all ch416.jpg
+exiftool IMG_6102_0.jpeg
+exiftool ch416.jpg
+exiftool ebabe_bennoug.jpg
+exiftool ebabe_bennoug.jpg -b
+exiftool ebabe_bennoug.jpg
+pkg install mediainfo
+mediainfo ebabe_bennoug.jpg
+mediainfo ebabe_bennoug.jpg -h
+mediainfo ebabe_bennoug.jpg -f
+mediainfo -f ch416.jpg
+mediainfo -f IMG_6102_0.jpeg
+pkg install imagemagick
+apt autoremove 
+identify IMG_6102_0.jpeg
+identify ch416.jpg
+identify ebabe_bennoug.jpg
+v main.go 
+cd /storage
+cd emulated
+l
+cd 0
+cd 0/
+cd ./0
+cd ./O
+exiftool ebabe_bennoug.jpg
+exit
+../r
+l
+install-in-mason ast-grep
+install-in-mason rust-analyzer
+v Cargo.toml 
+pkg uninstall imagemagick
+pkg install exiftool mediainfo
+pkg install exiftool
+apt autoremove 
+pkg install rustup
+pkg install rust
+exit
+cargo r 
+exit
+pkg install wuzz 
+wuzz 
+pkg uninstall wuzz 
+pkg install atool 
+atool 
+atool --help
+pkg uninstall atool 
+config n
+config nu 
+v --headless 
+v
+v --headless 
+v 
+v --headless +Lazy load codeium.nvim
+v --headless +"Lazy load codeium.nvim"
+v
+z nv
+z ~/.config/
+l
+mv .config.bkp/nvim/lua/plugins/fzf.lua .config.bkp/nvim/lua/plugins/lualine.lua .config.bkp/nvim/lua/plugins/md.lua .
+l
+mv ./*.lua nvim/lua/plugins/
+l
+v nushell/history.txt .config.bkp/nushell/history.txt 
+exit
+v src/main.rs 
+pkg install git perl<\n>git clone https://github.com/sullo/nikto.git<\n>cd nikto/program<\n>perl nikto.pl -h example.com
+l
+..
+l
+mv nikto/ ../..
+z
+l
+ls
+rm -rf note/ n.nu downloads/
+l
+ls
+k
+cd nikto/
+l
+|perl nikto.pl -h example.com
+cd program/
+l
+perl nikto.pl -h rimnow.com
+perl nikto.pl -h rimnow.com/wp-admin
+perl nikto.pl -h https://rimbac.com/
+perl nikto.pl -h rimbac.com/
+i ssl
+pkg install sslscan 
+perl nikto.pl -h rimbac.com/
+perl nikto.pl -h rimbac.com
+~
+pkg install git python<\n>git clone https://github.com/termux-one/AutoRecon<\n>cd AutoRecon<\n>./install.sh<\n>autorecon 192.168.1.100
+source ~/.config/nushell/config.nu
+pkg install git python<\n>git clone https://github.com/termux-one/AutoRecon<\n>cd AutoRecon<\n>./install.sh<\n>autorecon 192.168.1.100
+./AutoRecon/
+cd src/
+l
+autorecon
+cd
+l
+rm AutoRecon/
+rm AutoRecon/ -rf
+ls
+pkg install git python<\n>git clone https://github.com/TermuxHackz/WebScan.git<\n>cd WebScan<\n>chmod +x *<\n>pip install -r requirements.txt<\n>python3 webscan.py -u http://example.com
+cd
+rm -rf WebScan/
+l
+pkg install nmap<\n>nmap --script vuln -p80,443 example.com
+l
+mkdir npm
+rm npm/
+<\n>nmap --script vuln -p80,443 example.com
+nmap --script vuln -p80,443 rimnow.com
+exit
+ls *.json
+jq -n --arg name "Abdullah" --argjson age 17 '{"name": $name, "age": $age}' > file.json
+ls *.json
+ls .*.json
+ls \w*.json
+l
+rm nikto/ -rf
+l
+cd proj/
+go install 
+go install github.com/melkeydev/go-blueprint@latest
+gobject-query -h
+gobject-query 
+gobject-query tree
+cd blueprint/
+gobject-query tree
+cd
+cd proj/
+$env.PATH
+$env.PATH = ($env.PATH | prepend ~/go/bin/)
+go 
+$env.PATH = ($env.PATH | prepend "~/go/bin/")
+go install github.com/melkeydev/go-blueprint@latest
+~/go/bin/go-blueprint create --advanced
+termux-tts-engines 
+termux-tts-engines --help
+exit
+l
+rm -rf adv/
+l
+rm -rf adv/ blueprint/ cl/ frontend/  js/  gop/
+rm -rf adv/ blueprint/ cl/ frontend/  js/  
+cd gop/
+l
+..
+chmod -R 777 gop/
+rm -rf adv/ blueprint/ cl/ frontend/  js/  gop/
+l
+l --du 
+~/go/bin/go-blueprint create --advanced
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+rm cleanup_log.txt
+l
+exit
+ncat 
+ncat google.com
+cd proj/ 
+exit
+v
+z r
+v src/main.rs 
+exit
+z r
+v src/main.rs 
+l
+v DOC-20240812-WA0001_240812_183505.pdf 
+l -l
+chmod -R 777 DOC-20240812-WA0001_240812_183505.pdf 
+l -l
+cd /storage/emulated/0
+cd /storage/emulated/0/
+termux-setup-storage 
+mv DOC-20240812-WA0001_240812_183505.pdf a.pdf
+mv a.pdf ~/storage/downloads
+mv a.pdf ~/storage/shared/Download/
+cp a.pdf ~/storage/shared/Download/
+z ~/storage/shared/Download/
+l a.pdf
+i nim 
+nim 
+pkg uninstall nmap
+pkg uninstall nim 
+pkg install root-repo<\n>pkg install x11-repo<\n>pkg install science-repo
+i nitrogen 
+nitrogen 
+pkg uninstall nitrogen 
+bash 
+up
+pkg upgrade ; pkg update
+termux-change-repo 
+i 1oom 
+1oom_cmdline 
+pkg uninstall 1oom 
+termux-change-repo 
+alias up = (pkg update;pkg upgrade)
+exit
+config nu 
+exit
+up
+apt autoremove 
+pkg uninstall root-repo x11-repo 
+exit
+z downloads/
+l
+l --du 
+ansi gradient --help 
+z r
+v Cargo.toml 
+rm src/a.html
+v src/
+v
+z g
+zi 
+z ../learn_gin/
+v 
+http post https://bmci.mr/xmlrpc.php
+http post https://bmci.mr/xmlrpc.php -f
+http post https://bmci.mr/xmlrpc.php {<\n>"admin":true<\n>}
+http post https://bmci.mr/xmlrpc.php {<\n>"admin":"true"<\n>}
+http post https://bmci.mr/xmlrpc.php '{<\n>"admin":"true"<\n>}'
+l
+pkg install exiftool
+exiftool header-12-1536x390.jpg
+exit 
+s gs
+i tectonic 
+i pdflatex
+i magic-wormhole-rs 
+i luarocks 
+v 77a12b2966844f04bba032de5744cd35.bapp 
+v
+exit 
+exit 
+curl -X POST -d "<methodCall><methodName>system.listMethods</methodName></methodCall>" http://bmci.mr/xmlrpc.php
+curl -X POST <\n>|-H "Content-Type: text/xml"<\n>|-H "User-Agent: Mozilla/5.0" \<\n>-d "<methodCall><methodName>system.listMethods</methodName></methodCall>" \<\n>http://bmci.mr/xmlrpc.php
+bash
+http get https://bmci.mr/wp-includes/Requests/src/Autoload.php
+http get https://bmci.mr/wp-includes/Requests/src/Transport/Curl.php
+curl https://bmci.mr/wp-includes/Requests/src/Transport/Curl.php
+http get https://bmci.mr/wp-includes/block-patterns/query-medium-posts.php
+v ca-bundle.crt 
+curl -I https://bmci.mr/wp-content/uploads/PDF_EXTENDED_TEMPLATES/
+curl -I https://bmci.mr/wp-content/uploads/PDF_EXTENDED_TEMPLATES/template.php
+curl -I https://bmci.mr/wp-content/uploads/PDF_EXTENDED_TEMPLATES/sample.php
+curl -I https://bmci.mr/wp-content/uploads/PDF_EXTENDED_TEMPLATES/template.php.bak
+curl -I https://bmci.mr/wp-content/uploads/PDF_EXTENDED_TEMPLATES/template.old
+curl -I https://bmci.mr/wp-content/uploads/PDF_EXTENDED_TEMPLATES/.DS_Store
+l 
+exiftool Screenshot-2025-01-14-at-10.27.04 AM-18x12.png
+chmod -R 777 Screenshot-2025-01-14-at-10.27.04 AM-18x12.png 
+exiftool Screenshot-2025-01-14-at-10.27.04 AM-18x12.png
+http get https://bmci.mr/wp-content/uploads/merlin-wp/main.log
+http get https://bmci.mr/wp-content/uploads/wp-file-manager-pro/fm_backup/backup.zip
+http get https://bmci.mr/wp-content/uploads/
+http get https://bmci.mr/wp-content/uploads/ -f
+exiftool https://bmci.mr/wp-content/uploads/
+exiftool header-12-1536x390.jpg
+exiftool header-12-1536x390.jpg -b
+exit
+exit
+exit 
+z do
+z g
+l
+grep main
+rg main
+rust main
+grep main
+fzf 
+l
+go run main.go
+exit 
+l
+z
+starship config 
+l
+z r
+../gamego/
+../learn_gin/
+../../dotfiles/
+./aerospace/
+../starship/
+../sketchybar/
+l
+v colors.sh 
+starship explain 
+jjv
+l
+jjv
+starship explain 
+cd helper/
+l
+z
+npm create vite@latest frontend --template react<\n>cd frontend<\n>npm install
+nohup 
+normalizer 
+normalizer -h
+exit 
+exit 
+z p
+l
+i nodejs 
+apt-get --help 
+i --fix-missing
+pkg upgrade  nodejs 
+apt install --fix-missing 
+apt install --fix-missing nodejs 
+z p
+npm completion 
+##-begin-npm-completion-###<\n>#<\n># npm command completion script<\n>#<\n># Installation: npm completion >> ~/.bashrc  (or ~/.zshrc)<\n># Or, maybe: npm completion > /usr/local/etc/bash_completion.d/npm<\n>#<\n><\n>if type complete &>/dev/null; then<\n>  _npm_completion () {<\n>    local words cword<\n>    if type _get_comp_words_by_ref &>/dev/null; then<\n>      _get_comp_words_by_ref -n = -n @ -n : -w words -i cword<\n>    else<\n>      cword="$COMP_CWORD"<\n>      words=("${COMP_WORDS[@]}")<\n>    fi<\n><\n>    local si="$IFS"<\n>    if ! IFS=$'\n' COMPREPLY=($(COMP_CWORD="$cword" \<\n>                           COMP_LINE="$COMP_LINE" \<\n>                           COMP_POINT="$COMP_POINT" \<\n>                           npm completion -- "${words[@]}" \<\n>                           2>/dev/null)); then<\n>      local ret=$?<\n>      IFS="$si"<\n>      return $ret<\n>    fi<\n>    IFS="$si"<\n>    if type __ltrim_colon_completions &>/dev/null; then<\n>      __ltrim_colon_completions "${words[cword]}"<\n>    fi<\n>  }<\n>  complete -o default -F _npm_completion npm<\n>elif type compdef &>/dev/null; then<\n>  _npm_completion() {<\n>    local si=$IFS<\n>    compadd -- $(COMP_CWORD=$((CURRENT-1)) \<\n>                 COMP_LINE=$BUFFER \<\n>                 COMP_POINT=0 \<\n>                 npm completion -- "${words[@]}" \<\n>                 2>/dev/null)<\n>    IFS=$si<\n>  }<\n>  compdef _npm_completion npm<\n>elif type compctl &>/dev/null; then<\n>  _npm_completion () {<\n>    local cword line point words si<\n>    read -Ac words<\n>    read -cn cword<\n>    let cword-=1<\n>    read -l line<\n>    read -ln point<\n>    si="$IFS"<\n>    if ! IFS=$'\n' reply=($(COMP_CWORD="$cword" \<\n>                       COMP_LINE="$line" \<\n>                       COMP_POINT="$point" \<\n>                       npm completion -- "${words[@]}" \<\n>                       2>/dev/null)); then<\n><\n>      local ret=$?<\n>      IFS="$si"<\n>      return $ret<\n>    fi<\n>    IFS="$si"<\n>  }<\n>  compctl -K _npm_completion npm<\n>fi<\n>###-end-npm-completion-###
+bash
+l
+npm create vite@latest  l_react<\n>cd l_react;npm install
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+v README.md src/App.jsx 
+z p l
+git init 
+gi
+git clone https://github.com/Yarob50/Tarmeez-React-Course.gitERR
+git clone https://github.com/Yarob50/Tarmeez-React-Course.git
+git branch --all 
+cd Tarmeez-React-Course/
+git branch --all 
+git checkout remotes/origin/76/project/refactoring-the-code-to-use-context
+l
+l src/
+fzf (git branch --all )
+v
+exit 
+z T
+curl -fsSL https://raw.githubusercontent.com/opencode-ai/opencode/refs/heads/main/install | bash<\n>
+bash export PATH=/data/data/com.termux/files/home/.opencode/bin:$PATH
+bash
+l
+cd .opencode/
+l
+l --du 
+..
+rm -rr .opencode/
+i opencolorio 
+openmpt123 
+uni opencolorio 
+up
+up --fix-missing
+i --fix-missing
+up 
+i aichat 
+aichat 
+pkg reinstall aichat 
+aichat 
+z p
+l
+z l_react/
+l
+npm run dev
+rm cleanup_log.txt
+l
+ls
+v vite.config.js 
+z l_
+npm run dev
+npm install @mui/icons-material
+npm install @mui/material @mui/styled-engine-sc styled-components
+npm install @mui/material @emotion/react @emotion/styled
+npm run dev
+npm install uuid
+z l_
+git clone https://github.com/ecosse3/nvim.git ~/.config/echo
+NVIM_APP=echo nvim
+z .local/
+cd .local/
+l
+rm -rf share/echo/ state/echo/
+..
+rm -rf .cache/echo/ 
+cd .cache/
+rm -rf  glow/  helix/
+rm -rf  glow/  helix/ pip/  zsh/
+z .co
+exit 
+l
+rm -rf  github-copilot/
+z aichat/
+l
+../echo/
+l
+v README.md 
+z aichat/
+z l
+l --du 
+..
+l --du ./proj/
+l .npm/
+l .npmrc
+l .npm/ --du
+l
+l .local/state/
+l .cache/
+l .cache/ --du 
+z nv
+zi
+z nvim/
+l
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+..
+-
+z -
+git init 
+git config --global init.defaultBranch main
+git config --global init.defaultBranch master
+git init 
