@@ -2920,3 +2920,1044 @@ v
 rm -rf echo/
 l
 gca 
+gca "gghmb njcbgithub-copilot/"
+lazygit 
+git add .
+v
+l
+git add .
+l
+mv README.md 
+mv Readme.md README.md 
+l|rename name name
+l|rename name namE
+git log --graph --color=always --abbrev-commit --decorate --date=relative --         pretty=medium {{branchName}}
+git log --graph --color=always --abbrev-commit --decorate --date=relative --         pretty=medium {{branchName}} --
+v lazygit/config.yml 
+lazygit 
+lazygit --config 
+lazygit --work-tree 
+v lazygit/config.yml 
+z l
+npm run dev
+exit 
+z l
+npm run dev
+wuzz 
+exit 
+npm run dev
+npm run dev --host
+l
+ll
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+rm cleanup_log.txt
+exit 
+v a.bin 
+v
+v .config/.env 
+z g
+l
+v main.go 
+v
+c main.go
+v main.go 
+i pacman 
+pacman -S nix
+pacman -Sy nix
+pacman-key init
+pacman-key --init
+pacman -Sy nix
+pacman-key --populate 
+pacman -Sy nix
+pacman -Sy nixproot-distro login archlinux
+pacman -Sy proot-distro 
+pacman --upgrade 
+pacman --upgrade --color 
+pacman --upgrade nix
+pacman --upgrad vim 
+pacman -S vim 
+pacman -S vim --color 
+pacman -S vim --color always 
+rm -rf /etc/pacman.d/gnupg<\n>pacman-key --init<\n>pacman-key --populate archlinux
+fzf
+fzf ~
+..
+fzf ~
+fzf 
+v .cargo/registry/src/index.crates.io-1949cf8c6b5b557f/clap-4.5.38/examples/pacman.md
+pacman-conf 
+pacman-db-upgrade 
+pacman-db-upgrade --root 
+pacman-db-upgrade --root root
+pacman-db-upgrade --root (whoami )
+pacman-conf --config 
+pacman -S upgrade
+pacman -S update-info-dir 
+pacman -S update
+apt install nix
+apt search  nix
+pacman -S 
+pacman -h
+pacman -U
+pacman -T
+pacman -Q
+pacman -F
+pacman -D
+pacman -Syu
+pacman -Syu nvim
+pacman -Syu neovim
+v
+bash
+pacman -Syu helix 
+hx
+hx -v
+hx --version 
+pacman -R helix 
+pacman -R  helix 
+pacman -R  hx
+uni hx
+hx
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+git clone https://aur.archlinux.org/yay.git<\n>cd yay<\n>makepkg -si<\n>yay -S burpsuite
+l
+v PKGBUILD 
+..
+rm -rf yay/
+pd ls
+pd i archlinux
+i zaz 
+l
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+rm cleanup_log.txt
+pacman --remove helix
+uni helix 
+pacman -S zaz
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+rm cleanup_log.txt
+v ~/termux-junk-cleaner/termux-junk-cleaner.sh 
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+l c
+exit 
+exit 
+apt autoremove 
+apt autoclean 
+pkg autoclean 
+i aview 
+aview 
+aview -h
+aview --helo
+aview --help
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+s aidl 
+s aicgat
+s aichat
+i aichat
+aichat 
+aichat -h
+aichat 
+aichat AIzaSyDNqax2nU09g17gg2NI7h-Uyze9luTJwf8
+aichat -
+z .co
+l
+rm -rf helix/
+v aichat/config.yaml 
+aichat 
+rm aichat/config.yaml
+s mdbook 
+aichat 
+pacman -S docker 
+apt autoclean 
+apt autoremove 
+exit 
+..
+l --du 
+z nod
+zi 
+z node_modules/
+l
+z react/
+l
+https://www.rimtic.com
+http get https://www.rimtic.com
+../..
+/.
+~
+http get https://www.rimtic.com|save test.html
+v test.html 
+http get https://www.rimtic.com/robots.txt --full 
+http get https://www.rimtic.com/node_modules/ --full 
+http get https://www.rimtic.com/src/ --full 
+http get https://www.rimtic.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js --full 
+http get https://www.rimtic.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js --full | save test.js
+http get https://www.rimtic.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js --full |get body| save test.js
+http get --full https://www.rimtic.com//cdn-cgi/scripts/7d0fa10a/cloudflare-static
+http get --full https://www.rimtic.com/robots.txt
+http get --full https://www.rimtic.com/scripts/
+http get --full https://www.rimtic.com/scripts/|get body |from xml | to json
+http get --full https://www.rimtic.com/scripts/build
+l --du 
+rm -rf .npm
+z go/bin/
+l --du /
+l --du 
+../pkg/
+l --du 
+chmod -R 777 mod/
+rm -rf mod/
+exit 
+z g
+zi g
+z ga
+z gi
+..
+l
+z go_l/
+l
+wuzz 
+exit 
+h2ph -h
+h2ph 
+h2ph --help
+histogram --help 
+[1 2 3 1 1 1 2 2 1 1] | histogram --percentage-type relative
+c
+z server/
+go run main.go
+go run .
+..
+z server/
+l
+go mod init server
+go mod tidy 
+go run .
+go run main.go
+v main.go 
+l
+..
+go run .
+go run ./server/
+package command-line-arguments is not a main package<\n>proj/go_l/server ❯ : v main.go<\n>proj/go_l/server ➜ : l<\n>╭─#─┬──name───┬─type─┬─size──┬────modified────╮<\n>│ 0 │ go.mod  │ file │  25 B │ 45 seconds ago │<\n>│ 1 │ main.go │ file │ 657 B │ 5 minutes ago  │<\n>╰───┴─────────┴──────┴───────┴────────────────╯<\n>proj/go_l/server ➜ : ..<\n>~/proj/go_l ➜ : go run .<\n>panic: Get "http://localhost": dial tcp 127.0.0.1:80: connect: connection refused<\n><\n>goroutine 1 [running]:<\n>main.main()<\n>        /data/data/com.termux/files/home/proj/go_l/main.go:23 +0x13c<\n>exit status 2<\n>~/proj/go_l ❯ : go run ./server/<\n>main module (mytui) does not contain package mytui/server<\n>~/proj/go_l ❯ :
+go run .
+exit 
+v main.go 
+go run .
+exit 
+http get --full https://rimbac.com/?s=%3C%3Fxml+version%3D%221.0%22+encoding%3D%22ISO-8859-1%22%3F%3E%3Cfoo%3E%3C%21%5BCDATA%5B%3C%5D%5D%3ESCRIPT%3C%21%5BCDATA%5B%3E%5D%5D%3Ealert%28%27gotcha%27%29%3B%3C%21%5BCDATA%5B%3C%5D%5D%3E%2FSCRIPT%3C%21%5BCDATA%5B%3E%5D%5D%3E%3C%2Ffoo%3E+%3C%3Fxml+version%3D%221.0%22+encoding%3D%22ISO-8859-1%22%3F%3E%3Cfoo%3E%3C%21%5BCDATA%5B%27+or+1%3D1+or+%27%27%3D%27%5D%5D%3E%3C%2Ffoof%3E+%3C%3Fxml+version%3D%221.0%22+encoding%3D%22ISO-8859-1%22%3F%3E%3C%21DOCTYPE+foo+%5B%3C%21ELEMENT+foo+ANY%3E%3C%21ENTITY+xxe+SYSTEM+%22file%3A%2F%2Fc%3A%2Fboot.ini%22%3E%5D%3E%3Cfoo%3E%26xee%3B%3C%2Ffoo%3E+%3C%3Fxml+version%3D%221.0%22+encoding%3D%22ISO-8859-1%22%3F%3E%3C%21DOCTYPE+foo+%5B%3C%21ELEMENT+foo+ANY%3E%3C%21ENTITY+xxe+SYSTEM+%22file%3A%2F%2F%2Fetc%2Fpasswd%22%3E%5D%3E%3Cfoo%3E%26xee%3B%3C%2Ffoo%3E+%3C%3Fxml+version%3D%221.0%22+encoding%3D%22ISO-8859-1%22%3F%3E%3C%21DOCTYPE+foo+%5B%3C%21ELEMENT+foo+ANY%3E%3C%21ENTITY+xxe+SYSTEM+%22file%3A%2F%2F%2Fetc%2Fshadow%22%3E%5D%3E%3Cfoo%3E%26xee%3B%3C%2Ffoo%3E+%3C%3Fxml+version%3D%221.0%22+encoding%3D%22ISO-8859-1%22%3F%3E%3C%21DOCTYPE+foo+%5B%3C%21ELEMENT+foo+ANY%3E%3C%21ENTITY+xxe+SYSTEM+%22file%3A%2F%2F%2Fdev%2Frandom%22%3E%5D%3E%3Cfoo%3E%26xee%3B%3C%2Ffoo%3E+%3Cscript%3Ealert%28%27XSS%27%29%3C%2Fscript%3E
+nmap -sV traidmod.com<\n>
+l
+l --du 
+go run .
+http get --full http://localhost
+http get --full http://localhost --allow-errors 
+http get --full http://localhost 
+http get --full http://127.0.0.1
+exit 
+go run .
+bash
+l
+z g 
+l
+v main.go 
+i slides 
+up
+i slides 
+l
+slattach --help
+slides .a.md 
+ssh localhost:53531
+exit 
+slides serve 
+slides .a.md 
+slides .a.md --help 
+slides .a.md 
+chmod +x .a.md 
+slides .a.md 
+hx
+cx 
+cx ..
+v
+z -
+rm slides_ed25519 slides_ed25519.pub
+l
+rm f.log
+l --du  ~
+rm -rf ~/.cargo/
+rm -rf ~/.l
+rm -rf ~/.cache/helix/
+rm -rf ~/.cache/typescript/ 
+rm -rf ~/.cache/mc
+l --du  ~
+l ..
+l .. --du
+rm -rf ../l_react/
+l
+v .a.md 
+i helix 
+i helix-grammars 
+hx 
+hx --grammar fetch 
+l
+z .co
+l
+l helix/
+l helix/ --du
+rm -rf helix/ aichat/ lazygit/ 
+uni lazygit 
+uni aview 
+uni zaz 
+uni pacman 
+uni opencolorio 
+uni magic-wormhole-rs 
+uni pdflatex
+uni tectonic 
+uni 1oom 
+uni nitrogen 
+ed
+yazi 
+l
+ed
+exit 
+exit 
+l
+z l
+hx
+hx --health go 
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+exit 
+.config nv
+z .config nv
+i gitui 
+gitui 
+z r
+gitui 
+uni gitui
+lf
+uni lf
+http post https://bmci.mr/xmlrpc.php '{<\n>"admin":"true"<\n>}'
+http post https://affairesislamiques.mr/xmlrpc.php '{<\n>"admin":"true"<\n>}'
+http post https://affairesislamiques.mr/xmlrpc.php 
+exit 
+http get --full https://bmci.mr/wp-content/uploads/wp-file-manager-pro/fm_backup/
+/bin
+l
+cd cd
+cd cd/
+cd z
+which bash 
+cd bash
+z r (__zoxide_zi )
+zoxide query -l -s 
+zoxide query -l -s | wc 
+wc
+wc --help 
+zoxide edit 
+..
+rm -rf downloads/
+zoxide init nushell
+zoxide init --cmd za
+zoxide init --cmd cd nushell
+eval (zoxide init --cmd cd nushell)
+cd --help 
+cd r
+zoxide init --cmd cd nushell
+zoxide init --cmd cd nushell# Code generated by zoxide. DO NOT EDIT.<\n><\n># =============================================================================<\n>#<\n># Hook configuration for zoxide.<\n>#<\n><\n># Initialize hook to add new entries to the database.<\n>export-env {<\n>  $env.config = (<\n>    $env.config?<\n>    | default {}<\n>    | upsert hooks { default {} }<\n>    | upsert hooks.env_change { default {} }<\n>    | upsert hooks.env_change.PWD { default [] }<\n>  )<\n>  let __zoxide_hooked = (<\n>    $env.config.hooks.env_change.PWD | any { try { get __zoxide_hook } catch { false } }<\n>  )<\n>  if not $__zoxide_hooked {<\n>    $env.config.hooks.env_change.PWD = ($env.config.hooks.env_change.PWD | append {<\n>      __zoxide_hook: true,<\n>      code: {|_, dir| zoxide add -- $dir}<\n>    })<\n>  }<\n>}<\n><\n># =============================================================================<\n>#<\n># When using zoxide with --no-cmd, alias these internal functions as desired.<\n>#<\n><\n># Jump to a directory using only keywords.<\n>def --env --wrapped __zoxide_z [...rest: string] {<\n>  let path = match $rest {<\n>    [] => {'~'},<\n>    [ '-' ] => {'-'},<\n>    [ $arg ] if ($arg | path expand | path type) == 'dir' => {$arg}<\n>    _ => {<\n>      zoxide query --exclude $env.PWD -- ...$rest | str trim -r -c "\n"<\n>    }<\n>  }<\n>  cd $path<\n>}<\n><\n># Jump to a directory using interactive search.<\n>def --env --wrapped __zoxide_zi [...rest:string] {<\n>  cd $'(zoxide query --interactive -- ...$rest | str trim -r -c "\n")'<\n>}<\n><\n># =============================================================================<\n>#<\n># Commands for zoxide. Disable these using --no-cmd.<\n>#<\n><\n>alias cd = __zoxide_z<\n>alias cdi = __zoxide_zi<\n><\n># =============================================================================<\n>#<\n># Add this to your env file (find it by running `$nu.env-path` in Nushell):<\n>#<\n>#   zoxide init nushell | save -f ~/.zoxide.nu<\n>#<\n># Now, add this to the end of your config file (find it by running<\n># `$nu.config-path` in Nushell):<\n>#<\n>#   source ~/.zoxide.nu<\n>#<\n># Note: zoxide only supports Nushell v0.89.0+.
+v n.nu
+chmod +x n.nu 
+n.nu
+nu n.nu
+cd r
+cd -
+which cd
+fzf --ansi 
+fzf
+v Dockerfile
+l
+rm Dockerfile
+ff --help 
+ff
+ff dotfiles/
+i tealdeer 
+tldr --color ls
+tldr --color always
+tldr ls
+tldr -u
+tldr ls
+ls -1
+tldr nvme 
+tldr nvim
+tldr mc
+mc
+tldr ! 
+z ..!
+tldr ! 
+!:=
+!:-
+!:
+a!
+su 
+i sudo 
+sudo --help 
+bc
+tldr ! 
+tldr bc
+uni bc
+yazi 
+window --help 
+window 
+window 4
+ls|window 4
+s wiz wireguard-tools 
+s wiz 
+s  wireguard-tools 
+z l
+go build 
+eval (zoxide init --cmd cd nushell)
+exit 
+v main.go 
+z co nv
+v lua/
+z -
+v
+z .config nv
+z -
+z .config nv
+z p
+z -
+z . p
+z -
+z l p
+z lua p
+z-
+z -
+zi
+z lua/plugins/
+z ../config/
+z -
+v themes.lua 
+s jo
+i joe/stable
+jmacs 
+jstar 
+exit 
+uni joe 
+uni jstar
+json_pp 
+# Will put the jj binary for the latest release in ~/.cargo/bin by default<\n>cargo binstall --strategies crate-meta-data jj-cli
+# Will put the jj binary for the latest release in ~/.cargo/bin by default<\n>cargo install --strategies crate-meta-data jj-cli
+# To install the latest release<\n>cargo install --locked --bin jj jj-cli
+jj
+# To install the latest release<\n>
+z .car
+z .cargo/
+l
+l registry/
+l registry/ --du 
+..
+i pacman 
+pacman -S jujutsu
+jj config get 
+jj
+i openssl 
+jj
+s libssl
+i
+exit 
+up
+termux-change-repo 
+up
+s jump jupp just 
+s jump 
+s jupp 
+s just 
+i jupp
+jupp 
+uni jupp
+i jump 
+jump 
+jump cd .c
+jump nushell
+jump shell nushell
+bash
+l
+rm n.nu test.html
+rm n.nu test.js
+rm  test.js
+l
+rm -rf .dlv/
+l
+rm -rf .jump/
+uni jump 
+apt install libssh 
+jj
+i openssl 
+s flex m4
+s flex 
+s m4
+uni flex m4
+exit 
+z l
+v main.go 
+go tool 
+go tool test2json main.go 
+go generate main.go 
+l
+v a.sh
+go generate main.go a.sh
+go generate main.go 
+v main.go 
+~
+curl -X POST -H "Content-Type: text/xml" -H "User-Agent: Mozilla/5.0" -d "<methodCall><methodName>system.                listMethods</methodName></methodCall>" http://bmci.mr/xmlrpc.php
+curl -X POST -H "Content-Type: text/xml" -H "User-Agent: Mozilla/5.0" -d "<methodCall><methodName>system.listMethods</methodName></methodCall>" http://bmci.mr/xmlrpc.php
+curl -X POST -H "Content-Type: text/xml" -H "User-Agent: Mozilla/5.0" -d "<methodCall><methodName>system.listMethods</methodName></methodCall>" http://bmci.mr/xmlrpc.php|from xml 
+curl -X POST -H "Content-Type: text/xml" -H "User-Agent: Mozilla/5.0" -d "<methodCall><methodName>system.listMethods</methodName></methodCall>" http://bmci.mr/xmlrpc.php|to json 
+curl -X POST "http://bmci.mr/xmlrpc.php"   -H "Content-Type: text/xml"   -d '<?xml version="1.0"?><\n><methodCall><\n>  <methodName>wp.getUsersBlogs</methodName><\n>  <params><\n>    <param><value><string>admin</string></value></param> <!-- username --><\n>    <param><value><string>password</string></value></param> <!-- password --><\n>  </params><\n></methodCall>'
+curl -X POST "http://bmci.mr/xmlrpc.php"   -H "Content-Type: text/xml"   -d '<?xml version="1.0"?><methodCall>  <methodName>wp.getUsersBlogs</methodName>  <params>    <param><value><string>admin</string></value></param> <!-- username -->    <param><value><string>password</string></value></param> <!-- password -->  </params></methodCall>'
+curl -I http://bmci.mr/xmlrpc.php
+curl -I http://bmci.mr/xmlrpc.php -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+curl http://bmci.mr/xmlrpc.php
+curl -X POST "http://bmci.mr/xmlrpc.php"   -H "Content-Type: text/xml"   -H "User-Agent: WordPress/6.0.3; http://bmci.mr"   -d '<?xml version="1.0"?><methodCall><methodName>wp.getUsersBlogs</methodName><params><param><value><string>admin</string></value></param><param><value><string>password</string></value></param></params></methodCall>'
+v .bash_history 
+z l
+http get https://rimbac.com/admin
+http get https://rimbac.com/admin/
+http get https://www.rimbac.com/sitemap_index.xml
+v main.go 
+exit 
+z l
+z -
+z l
+v main.go 
+z l
+l
+rm -rf .a.http a.sh
+l
+l js/htmx.js
+bat  js/htmx.js
+v js/htmx.js 
+c
+curl https://github.com/githubnext/monaspace/releases/download/v1.200/monaspace-v1.200.zip
+l
+curl -X GET https://github.com/githubnext/monaspace/releases/download/v1.200/monaspace-v1.200.zip
+http get 
+http get https://github.com/githubnext/monaspace/releases/download/v1.200/monaspace-v1.200.zip
+curl https://github.com/githubnext/monaspace/archive/refs/heads/main.zip
+l
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+z l
+v 
+l
+go build 
+l
+http get http://localhost:7000/users/2
+http get --allow-errors --full  http://localhost:7000/users/2 
+http get --allow-errors --full  http://localhost:7000/users/1
+http get --allow-errors --full  http://localhost:7000/users/
+./mytui
+v ./mytui 
+z
+z -
+go telemetry -hERR
+go telemetry -h
+go telemetry on 
+go telemetry local 
+go telemetry off 
+go tool addr2line help
+go tool addr2line -h
+go tool asm -h
+22671412
+go tool asm -h
+go tool buildid  -h
+go tool cgo  -h
+go tool pack  -h
+exit 
+go run .
+npx https://github.com/google-gemini/gemini-cli
+ping -c 1 example.com
+ping -c 1 rimbac.com
+ssh @root:91.108.98.100
+tldr ssh
+tldr -u
+tldr ssh
+ssh root@91.108.98.100
+nslookup example.com
+dig +short example.com
+curl https://dns.google/resolve?name=example.com&type=A
+curl https://dns.google/resolve?name=rimbac.com&type=A
+curl https://dns.google/resolve?name=rimbac.com&type=A|jq --color-output 
+ssh user@192.0.2.10
+ssh root@91.108.98.100
+pkg update<\n>pkg install openssh
+up
+ip a
+sshd
+ip a
+ssh root@192.168.100.30
+ssh user@192.168.100.30
+sshd --help
+127.0.9.2 myapp.local
+i crawl 
+crawl --help
+uni crawl 
+z -
+z l
+exit 
+s asciidoc 
+s ascii
+i boxes/stable
+boxes -h
+boxes hu
+tldr -u
+tldr boxes 
+"someyhin"|boxes 
+"someyhin"|box
+tldr box
+box help
+exit 
+v main.go 
+v 
+v
+nc
+pkg install netcat
+pkg install nmap-ncat
+i busybox 
+busybox uc
+busybox nc
+go run .
+"hello world"|busybox nc 0.0.0.0 7000
+"hello world"|busybox nc 0.0.0.0.0.0 7000
+"hello world"|busybox nc localhost 7000
+echo "hello world"|busybox nc localhost 7000
+i nmap-ncat 
+"hello World"|ncat 0.0.0.0 7000
+"hello World"|ncat -l 7000
+go run . 7000
+go run . 7070
+echo "hello world"| nc localhost 7000
+echo "hello world"| ncat  localhost 7000
+echo "hello world"| ncat  localhost 7070
+http get http://169.254.26.99/
+..
+ssh git@github.com:med-sidmed/lmbehra-web-site.git
+echo "hello world"| ncat  localhost 7070
+exit 
+v
+..
+fzf
+z learn_gin/
+l
+../..
+fzf
+git clone https://github.com/med-sidmed/lmbehra-web-site.git
+l
+z lmbehra-web-site/
+l
+v .config/.env
+اتن لباو 
+v README.md 
+npm run dev
+npm i
+cd nadi-lmbehra/
+l
+npm i
+v /data/data/com.termux/files/home/.npm/_logs/2025-06-28T20_57_14_284Z-debug-0.log
+npm run dev
+npm i
+l
+npm i vite@latest
+v package.json 
+l
+npm i vite@latest -g
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+z lmbehra-web-site
+l
+git send-email "hi" 
+npm i 
+git status 
+..
+git status 
+git add .
+l
+git status 
+git branch main
+git checkout  main
+git status 
+l
+npm i 
+npm run dev
+l
+z nadi-lmbehra/
+l
+npm i
+npm run dev
+npm install --save-dev @swc/wasm
+v vite.config.ts 
+npm run dev
+npm remove @swc/core
+npm install --save-dev @swc/wasm
+z nadi-lmbehra/
+l
+npm i @vitejs/plugin-react
+npm remove @vitejs/plugin-react-swc
+npm run dev
+l
+rm -rf node_modules package-lock.json
+npm install
+npm install is-extglob
+npm run dev
+v vite.config.ts 
+l
+git status 
+git column  
+cp package.json vite.config.ts ./../../
+cd ./../../
+l
+z -
+git checkout origin/Develop 
+rm -rf node_modules package-lock.json
+rm -rf vite.config.ts package.json
+mv ~/proj/vite.config.ts .
+mv ~/proj/package.json .
+l
+gst 
+git add .
+git commit -m "add complatibility with termux"
+gst
+npm i
+npm run dev
+v vite.config.ts 
+s mongo
+up
+exit 
+v .
+exit 
+z nadi-lmbehra
+up
+z ../..
+l
+mkdir lembehra-api
+z lembehra-api/
+l
+v main.go 
+go mod tidy 
+go mod init lembehra
+go mod tidy 
+i tur-repo 
+i mongodb 
+modularize 
+mongo -h
+mongod -h
+npm ll 
+npm ll ~
+..
+npm ll ~
+./lembehra-api/
+npm ll ~
+npm uninstall mongo
+l
+rm package*
+l
+go mod tidy 
+../learn_gin/
+l
+v go.mod 
+../lembehra-api/
+l
+go run . 
+l
+mkdir  ~/data/db<\n>mongod --dbpath ~/data/db
+l
+cd ~/data/db/
+k
+l
+..
+rm -rf .cargo/
+z ap
+l
+z ap
+go run . 
+exit 
+pkg uninstall nmap-ncat
+pkg uninstall busybox 
+uni openssh 
+pkg autoclean 
+uni boxes/stable
+uni boxes/stable crawl
+i mongodb 
+uni openssl 
+up
+i --fix-missing
+up
+uni tur-repo 
+up
+rm -rf /data/data/com.termux/cache/apt/archives/*
+apt update --fix-missing<\n>apt upgrade
+rm -rf /data/data/com.termux/cache/apt/archives/<\n>mkdir -p /data/data/com.termux/cache/apt/archives/partial
+rm -rf /data/data/com.termux/cache/apt/archives/<\n>mkdir  /data/data/com.termux/cache/apt/archives/partial
+apt update --fix-missing<\n>apt upgrade
+termux-change-repo 
+apt update --fix-missing<\n>apt upgrade
+exit 
+~/termux-junk-cleaner/termux-junk-cleaner.sh 
+apt update --fix-missing<\n>apt upgrade
+z we
+git branch 
+glog 
+jj
+uni jj
+z
+l
+z .config/
+l
+rm -rf TabNine/ helix/ 
+gitui 
+exit 
+config nu 
+i kubectl 
+kubectl 
+kubectl version --client
+z
+kubectl get nodes
+s kubo 
+z -
+l
+z nadi-lmbehra/
+l
+l --du  
+v package.json 
+~
+l
+l --du  go
+l --du  data/
+rm -rf data/
+l
+mongod 
+mongod -h
+tldr -u 
+exit 
+v .
+rm -rf ~/.supermaven/ ~/.npm/ ./node_modules/
+exit 
+z nadi-lmbehra
+../../learn_gin/
+v
+exit 
+mv ../../lembehra-api/ ../
+v
+..
+git add .
+l
+gst
+git pull origin origin/Develop 
+git pull origin origin/Develop  --all 
+git pull origin origin/Develop  
+git fetch origin 
+lmbehra-web-site ➜ : gst
+git fetch origin 
+git branch -r 
+git push origin "(HEAD detached from origin/Develop)" 
+git push origin HEAD~
+git branch 
+git checkout -b Develop origin/Develop
+git commit -m "I my best in the database and start with routings"
+git push origin Develop 
+git push origin "(HEAD detached from origin/Develop)"
+git push origin HEAD~
+git push origin HEAD
+git branch 
+gio 
+gio
+gio tree
+i lazygit 
+lazygit 
+git checkout -b Develop 
+git push -u origin Develop
+gst 
+git log --graph --color=always --abbrev-commit --decorate --date=relative --         pretty=medium {{branchName}} --
+git log --graph --color=always --abbrev-commit --decorate --date=relative --         pretty=medium {{branchName}} 
+glog 
+git commit --edit 
+git commit --edit -h
+lazygit 
+v README.md 
+git add README.md 
+exit 
+git config --global credential.helper store
+exit 
+z lembehra-api/
+go run . 
+exit 
+go run . 
+z lembehra-api/
+go run . 
+~;mongod --dbpath ~/mongo-data
+z ~;mongod --dbpath ~/mongo-data
+mongod --depth ~/mongo-data/
+mongod --dbpath ~/mongo-data
+mongos 
+mongos --help
+mongos 
+z ~/mongo-data/
+l
+mongos 
+mongos --configdb
+mongos --configdb --help
+v .
+exit 
+go run . 
+exit 
+v ~/.config/.env 
+exit 
+mongod --dbpath ~/mongo-data|jq
+mongod --dbpath ~/mongo-data|from json 
+mongod --dbpath ~/mongo-data|from json |to md 
+mongo 
+l
+v .dbshell 
+z lembehra-api
+mongo 
+z lembehra-api
+v main.go 
+exit 
+z gin
+v cmd/api/attendees.go 
+exit 
+l
+v ~/.config/.env 
+go build 
+l
+http get http://localhost:9090/activities
+http get http://localhost:9090/activities?id=ghjjk
+http get http://localhost:9090/activities/?id=ghjjk
+http get http://localhost:9090/activities/ghjjk
+http get http://localhost:9090/activities/ghjjk --allow-errors 
+http get http://localhost:9090/activities?id=ghjjk --allow-errors 
+./lembehra
+l
+rm lembehra
+go build 
+http get http://localhost:9090/activities?id=ghjjk --full  --allow-errors 
+http get http://localhost:9090/activities --full  --allow-errors 
+./lembehra
+http get http://localhost:9090/activities?_id=ghnmm --full  --allow-errors 
+http get http://localhost:9090/activities?_id=ghnmm --headers "Content-Type: application/json" --full  --allow-errors 
+http get http://localhost:9090/activities?_id=ghnmm --headers {"Content-Type": "application/json"} --full  --allow-errors 
+go run . 
+p
+up
+go run . 
+go clean 
+go build 
+z ap
+git add .
+git commit -m "I my best in the database and add more "
+git push 
+l ~
+v main.go 
+git fetch 
+gst 
+git pull
+git add .
+git pull
+git commit -m "I my best in the database and add more "
+git pull
+git branch 
+l
+gcoall 
+l
+go run . 
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+http get http://localhost:9090/activities
+http get http://localhost:9090/activities|jq
+http get http://localhost:9090/activities/6861536b4cbdf98aa2fbb9e0|jq
+http delete  http://localhost:9090/activities/6861536b4cbdf98aa2fbb9e0|jq
+http get http://localhost:9090/activities/6861536b4cbdf98aa2fbb9e0|jq
+go run . 
+http delete --allow-errors -f http://localhost:9090/activities/6861536b4cbdf98aa2fbb9e0|jq
+http delete --allow-errors --full  http://localhost:9090/activities/6861536b4cbdf98aa2fbb9e0|jq
+http delete --allow-errors --full  http://localhost:9090/activities/6861536b4cbdf98aa2fbb9e0
+http get http://localhost:9090/activities/6861536b4cbdf98aa2fbb9e0|jq
+http get http://localhost:9090/activities/|jq
+http get http://localhost:9090/activities|jq
+http get http://localhost:9090/activities |jq
+v main.go 
+exit 
+v main.go 
+mongod --dbpath ~/mongo-data|jq
+mongos 
+cd ~/data/db/
+cd ~/mongo-data/
+l
+mongos 
+mongod
+mongod|jq
+go run . 
+v controllers/AcivitiesController.go 
+z ap
+git add .
+git commit -m "working on the issues"
+git push
+git pull
+git push
+git pull --no-rebase 
+git push
+git rebase --continue
+gst
+git add .
+gst
+git push
+git commit -m "working on the issues"
+git push
+exit 
+l
+v .mongorc.js 
+v .zoxide.nu 
+l go/
+l go/ --du
+ssh root@41.188.115.18
+41.188.115.18
+z ap
+git branch -a 
+rm a.json
+v main.go 
+lazygit 
+v main.go 
+lazygit 
+go run . 
+s sqlcipher 
+pgrep -h 
+tldr -u 
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+go run . 
+l
+ps
+z ap
+go run . 
+../nadi-lmbehra/
+npm bin 
+node -h 
+npm run dev
+npm i
+npm run dev
+rm -rf ~/.supermaven/ ~/.npm/ ./node_modules/
+l
+l ~
+go run . 
+..
+l
+rm a.json
+git branch -a 
+git add .
+l
+git commit -m "I fix a lot of the issues those are relatef to the crud for the activities "
+git push origin Develop
+z lembehra-api/
+hx
+l ~/.cache/helix/
+l ~/.config/helix/
+l ~/.config/helix/../gitui/
+l ~/.config/helix/../gitui/../carapace/
+l ~/.config/helix/../gitui/../carapace/ --du
+l ~/.config/helix/../gitui/../carapace/../go
+l ~/.config/helix/../gitui/../carapace/../go --du 
+v .env
+v 
