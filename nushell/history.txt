@@ -3961,3 +3961,173 @@ l ~/.config/helix/../gitui/../carapace/../go
 l ~/.config/helix/../gitui/../carapace/../go --du 
 v .env
 v 
+rm -rf ~/.local/state/nvim/swap/
+v src/*.jsx
+..
+./lembehra-api/
+v main.go 
+mongod|jq
+exit 
+v 
+exit 
+exit 
+z lembehra-api
+v main.go 
+v
+echo $TERM<\n># Should output: xterm-256color
+bash
+echo $TERM<\n># Should output: xterm-256color
+exit 
+v
+exit 
+z lembehra-api
+l
+i tree 
+tree
+l
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+~
+go install github.com/melkeydev/go-blueprint@latest
+~/go/bin/go-blueprint create 
+cd mongodbtest/
+l
+tree -U -C 
+l
+l --long 
+l --threads 
+v cmd/api/main.go 
+make run 
+air
+make run 
+rm -rf
+..
+rm -rf bin/ mongodbtest/
+l
+rm -rf .npm/
+l --du go/bin/
+./go/bin/gopls -h
+z lembehra-api
+go build 
+go run . 
+rm -rf ~/.cache<\n>rm -rf ~/go/pkg/mod<\n>rm -rf ~/tmp
+go run . 
+v models/activities.go 
+z lembehra-api
+v models/setup.go 
+go run . 
+v 
+exit 
+mongod|jq
+exit 
+z lembehra-api
+i fx 
+mongod|fx
+uni fx 
+mongod|jq
+mongod|bat
+mongod|bat --language jsonnet 
+mongod|json_reformat 
+mongod|json_reformat |json_pp|jq 
+mongod|jq |json_reformat |json_pp
+go run . 
+mongod|jq 
+exit 
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+exit 
+v ../README.md ./main.go 
+v main.go 
+z lembehra-api
+v main.go 
+exit 
+z lembehra-api
+..
+./nadi-lmbehra/
+l
+z src/App.tsx
+i zsh 
+zsh 
+oh-my-posh 
+oh-my-posh print
+oh-my-posh print prompt
+l
+oh-my-posh print prompt
+uni zsh  zsh-completions oh-my-posh 
+pkg-config --help
+tldr -u 
+tldr p10k 
+uni pacman 
+uni rust 
+uni aichat 
+uni nmap-ncat 
+uni **
+fzf -h
+tldr fzf 
+history 
+history |fzf
+history |get *
+history 
+history | get command
+history | get command|fzf
+history | get command|to text 
+history | get command|to text |fzf
+history | get command|to text |fzf --color dark 
+history | get command|to text |fzf --color 16 
+history | get command|to text |fzf --color bw 
+history | get command|to text |fzf --color light 
+history | get command|to text |fzf --color 16
+history | get command|to text |fzf -d  --color 16 --multi 
+history | get command|to text |fzf -d  --color=16 --multi 
+uni science-repo
+uni python mediainfo tsc gcc
+uni python mediainfo tsc 
+uni python mediainfo
+z .config
+l
+z lembehra-api
+z -
+v yellow.toml
+starship prompt 
+z -
+..
+./lembehra-api/
+../nadi-lmbehra/
+l
+..
+./../r/
+z .config
+/
+-
+z .config
+l
+mv starship.toml coll.toml
+mv wezterm.toml starship.toml
+z -
+z ~/proj/lmbehra-web-site/
+./nadi-lmbehra/
+../lembehra-api/
+z .config
+mv starship.toml uglymac.toml
+l
+mv strange.toml starship.toml
+z ap
+z -
+/
+z -
+z .config
+l
+mv starship.toml strange.toml
+mv yellow.toml starship.toml
+l
+z ap
+neofetch 
+all 
+l
+../../r
+l
+./../lmbehra-web-site/
+./nadi-lmbehra/
+l
+./src
+l
+z ap
+z .config
