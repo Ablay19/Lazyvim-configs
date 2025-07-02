@@ -1,120 +1,115 @@
-format = """
-$git_branch\
-$git_status\
-$python\
-$nodejs\
-$c\
-$cpp\
-$rust\
-$java\
-$golang\
-$docker_context\
-$kubernetes
-$battery    $time
-$os [$username](yellow)[@](cyan)[$hostname](green) $directory$character
-"""
+add_newline = true
+
+[aws]
+disabled = false
+
 
 [character]
-success_symbol = '[➜](bold green)'
-error_symbol = '[➜](bold red)'
+success_symbol = "[](bold green)"
+error_symbol = "[](bold red)"
+vicmd_symbol = "[](bold green)"
 
-[battery]
-full_symbol = "• "
-charging_symbol = "⇡ "
-discharging_symbol = "⇣ "
+[cmd_duration]
 
-[[battery.display]]
-threshold = 100
+[conda]
+
+[directory]
+truncation_length = 3
+
+[dotnet]
+disabled = false
+
+[env_var]
+disabled = false
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[git_commit]
+disabled = false
+commit_hash_length = 4
+
+[git_state]
+disabled = false
+
+[git_status]
+conflicted = "=${count}"
+ahead = "⇡${count}"
+behind = "⇣${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+untracked = "?${count}"
+stashed = "\\$${count}"
+modified = "!${count}"
+staged = "+${count}"
+renamed = "»${count}"
+deleted = "✘${count}"
+
+[gcloud]
+disabled = false
+
+[golang]
+format = '[ ](bold cyan)'
+[hostname]
+
+[jobs]
+
+[kubernetes]
+symbol = " "
+disabled = false
+
+[line_break]
+disabled = false
+
+[lua]
+symbol = " "
+lua_binary = "luajit"
+
+[nix_shell]
+disabled = true
+
+[memory_usage]
+disabled = false
+
+[java]
+symbol = " "
+
+[julia]
+
+[nim]
+
+[nodejs]
+symbol = " "
+
+[package]
+symbol = " "
+
+[php]
+symbol = " "
+
+[python]
+symbol = " "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+
+[scala]
+symbol = " "
+
+[terraform]
+symbol = " "
+format = "via [$symbol$version]($style)"
 
 [time]
-format = "[$time]($style)"
 disabled = false
 
 [username]
-show_always = true
-format = "[$user]($style)"
-
-[hostname]
-ssh_only = false
-format = "[$hostname]($style)"
-
-[c]
-format = "[$symbol($version )]($style)"
-symbol = " "
-
-[directory]
-read_only = " "
-
-[docker_context]
-symbol = " "
-format = "[$symbol$context]($style)"
-
-[elm]
-symbol = " "
-
-[golang]
-symbol = " "
-format = "[$symbol($version )]($style)"
-
-[hg_branch]
-symbol = " "
-
-[java]
-symbol = " "
-format = "[$symbol($version )]($style)"
-
-[memory_usage]
-symbol = " "
-
-[nodejs]
-format = "[$symbol($version )]($style)"
-symbol = " "
-
-[os]
 disabled = false
-
-[os.symbols]
-Alpine = " "
-Amazon = " "
-Android = " "
-Arch = " "
-CentOS = " "
-Debian = " "
-DragonFly = " "
-Emscripten = " "
-EndeavourOS = " "
-Fedora = " "
-FreeBSD = " "
-Garuda = "﯑ "
-Gentoo = " "
-HardenedBSD = "ﲊ "
-Illumos = " "
-Linux = " "
-Macos = " "
-Manjaro = " "
-Mariner = " "
-MidnightBSD = " "
-Mint = " "
-NetBSD = " "
-NixOS = " "
-OpenBSD = " "
-openSUSE = " "
-OracleLinux = " "
-Pop = " "
-Raspbian = " "
-Redhat = " "
-RedHatEnterprise = " "
-Redox = " "
-Solus = "ﴱ "
-SUSE = " "
-Ubuntu = " "
-Unknown = " "
-Windows = " "
-
-[package]
-symbol = " "
-format = "[$symbol($version )]($style)"
-
-[python]
-symbol = " "
-format = "[$symbol($version )]($style)"

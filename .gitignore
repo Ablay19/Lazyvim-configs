@@ -1,0 +1,40 @@
+# Backup or temporary files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
+
+# Logs or system files
+*.log
+nohup.out
+
+# Compiled binaries or cache (if any)
+**/*.o
+**/*.so
+**/*.pyc
+**/__pycache__/
+
+# Node-related (for npm / yarn / update-notifier)
+node_modules/
+.config/configstore/
+
+# Lazy.nvim lock file (regenerateable)
+nvim/lazy-lock.json
+
+# Ignore generated Deadjoe file (from Emacs or file crash)
+nvim/lua/plugins/DEADJOE
+
+# Ignore telemetry or state logs if not user-edited
+go/telemetry/
+
+# Ignore update-notifier cache
+configstore/update-notifier-@google/
+
+# If you clone tmux plugins, you might ignore them (uncomment if you want that)
+# tmux/plugins/
+
+# Ignore editor-specific settings
+.vscode/
+.idea/
