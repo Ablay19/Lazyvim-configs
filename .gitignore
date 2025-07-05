@@ -38,3 +38,4 @@ configstore/update-notifier-@google/
 # Ignore editor-specific settings
 .vscode/
 .idea/
+.env
