@@ -1,8 +1,0 @@
-# see https://github.com/sigoden/aichat/blob/main/config.example.yaml
-#
-#
-model: openai:gpt-4o
-clients:
-  - type: openai
-    api_key: pZYfEYo6VrzYBhR0I9mHMThDkpa27yfnpV7NXUzNh2e3fbsH1O-_sYja9PWzgF2NKQIBWdEMtvT3BlbkFJFlhpJFLbjGJoix5QdQ3yZcW0GbYPQdK1CuL-toixbQdN_3zCWNtO7RWN7gpJBy_0lIHYD3QycA
-#            pZYfEYo6VrzYBhR0I9mHMThDkpa27yfnpV7NXUzNh2e3fbsH1O-_sYja9PWzgF2NKQIBWdEMtvT3BlbkFJFlhpJFLbjGJoix5QdQ3yZcW0GbYPQdK1CuL-toixbQdN_3zCWNtO7RWN7gpJBy_0lIHYD3QycA

@@ -4417,3 +4417,90 @@ z lembehra-api
 z .config
 git clone https://github.com/CosmicNvim/CosmicNvim.git
 l
+NVIM_APP=CosmicNvim nvim 
+v auth/context.go
+exit 
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+exit 
+z lembehra-api
+go test -bench .
+go tool pprof 
+exit 
+v
+z lembehra-api
+~/go/bin/air
+mkdir tmp
+~/go/bin/air
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+exit 
+z lembehra-api
+~/go/bin/air
+chmod +x tmp/main 
+~/go/bin/air
+go clean 
+go bug 
+GOOS='android' go run github.com/hajimehoshi/ebiten/v2/examples/rotate@latest
+~/go/bin/air
+l
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+z lembehra-api
+v 
+v
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+exit 
+cd /storage/emulated/0/
+../2
+../1
+..
+l
+-
+cd 0
+l
+z .cache/
+l
+l pip/
+l pip/http/
+l pip/http/0/
+l pip/http/0/1/
+l pip/http/0/1/3/
+l pip/http/0/1/3/a/
+l pip/http/0/1/3/a/d/013ad8f2cd55811301449d60ddda6b5c7d599c467ae8a26829a2c252
+v pip/http/0/1/3/a/d/013ad8f2cd55811301449d60ddda6b5c7d599c467ae8a26829a2c252
+~
+l
+.dlv/config.yml
+uni zsh 
+uni yazi tmux neofetch busybox rust-analyzer rust-src 
+l
+l --du 
+z .local/
+l
+l bin/
+./bin/
+./lvim
+..
+l
+l state/
+l --du state/
+l --du state/ share/
+rm -rf share/nvim share/lvim state/nvim 
+l
+l --du
+l --du state/ share/
+..
+l
+l .cache/ --du 
+yazi 
+z .co
+rm aichat/ -rf lvim/ CosmicNvim/ configstore/ 
+l
+z n
+z -
+z ./nvim/
+l
+kubectl 
+uni kubectl 
+v
+lazygit 
+l
+z .config
