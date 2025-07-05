@@ -1,0 +1,60 @@
+# https://docs.helix-editor.com/configuration.html
+
+theme = "catppuccin_macchiato"
+
+[editor]
+cursorline = true
+auto-save = true
+bufferline = "always"
+color-modes = true
+completion-trigger-len = 1
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.indent-guides]
+render = true
+
+[editor.file-picker]
+hidden = false
+
+[editor.lsp]
+display-messages = true
+
+[keys.insert]
+A-b = ["move_prev_word_start", "collapse_selection"]
+A-f = ["move_next_word_end", "move_char_right"]
+C-a = "goto_first_nonwhitespace"
+C-b = "move_char_left"
+C-d = "delete_char_forward"
+C-e = "goto_line_end_newline"
+C-f = "move_char_right"
+C-n = "move_line_down"
+C-p = "move_line_up"
+
+[keys.normal]
+"C-d" = ["half_page_down", "goto_window_center"]
+"C-u" = ["half_page_up", "goto_window_center"]
+ret = "goto_word"
+
+[keys.normal."]"]
+"]" = "goto_next_paragraph"
+
+[keys.normal."["]
+"[" = "goto_prev_paragraph"
+
+[keys.normal.space]
+F = "file_picker_in_current_buffer_directory"
+l = ":pipe-to helix-debug-print"
+q = ":quit-all"
+w = ":write-all"
+x = ":buffer-close"
+
+[keys.select."]"]
+"]" = "goto_next_paragraph"
+
+[keys.select."["]
+"[" = "goto_prev_paragraph"
+
