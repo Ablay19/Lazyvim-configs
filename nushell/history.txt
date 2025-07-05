@@ -4208,3 +4208,140 @@ git add .
 l
 tree 
 # Backup or temporary files<\n>*~<\n>*.swp<\n>*.swo<\n>*.bak<\n>*.tmp<\n>.DS_Store<\n><\n># Logs or system files<\n>*.log<\n>nohup.out<\n><\n># Compiled binaries or cache (if any)<\n>**/*.o<\n>**/*.so<\n>**/*.pyc<\n>**/__pycache__/<\n><\n># Node-related (for npm / yarn / update-notifier)<\n>node_modules/<\n>.config/configstore/<\n><\n># Lazy.nvim lock file (regenerateable)<\n>nvim/lazy-lock.json<\n><\n># Ignore generated Deadjoe file (from Emacs or file crash)<\n>nvim/lua/plugins/DEADJOE<\n><\n># Ignore telemetry or state logs if not user-edited<\n>go/telemetry/<\n><\n># Ignore update-notifier cache<\n>configstore/update-notifier-@google/<\n><\n># If you clone tmux plugins, you might ignore them (uncomment if you want that)<\n># tmux/plugins/<\n><\n># Ignore editor-specific settings<\n>.vscode/<\n>.idea/
+git filter-repo --path .env --invert-paths --force
+git log --all -- .env
+bash
+git push 
+git push --set-upstream origin master
+v ../.gitconfig 
+i python-pip  
+uni python-pip  
+z .l
+l
+l state/* share/*
+..
+./.cache/
+l
+rm -rf helix/ lvim.old/ pip/ 
+..
+l
+exit 
+v ~/.gitconfig 
+exit 
+z lembehra-api
+go run -x --overlay
+go run -x --overlay .
+go run 
+go run .
+go version
+i lazyread 
+lazyread -h
+lazyread .gitconfig
+tldr lazyread
+tldr lazyread -y
+tldr lazyread -u
+tldr lazyread
+tldr -u 
+tldr lazyread
+uni lazyread 
+exit 
+$env.PATH = ($env.PATH | append $"($nu.home)/go/bin")
+$env.PATH = ($env.PATH | append $"($nu.home-path)/go/bin")
+exit 
+go install github.com/jorgerojas26/lazysql@latest
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+config nu 
+go install github.com/jorgerojas26/lazysql@latest
+~/go/bin/lazysql
+config nu 
+source ~/.config/nushell/config.nu
+lazysql 
+lazysql -h
+exit 
+jq -n --arg name "Abdullah" --argjson age 17 '{"name": $name, "age": $age}' > file.json
+mongod|jq -M 
+mongod|jq -C 
+z lembehra-api
+v main.go 
+sqlite3 data.db
+lazysql data.db
+exit 
+z 
+z lembehra-api
+l
+open data.db
+lazysql data.db
+open data.db
+bash
+opt -h
+tldr opt
+open data.db
+open data.db|SELECT * FROM users WHERE name = "name1"
+open data.db|query db `SELECT * FROM users WHERE name = "name1"`
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+z lembehra-api
+z ~/.termux/
+l
+l boot/
+rm -rf boot/
+l
+v termux.properties 
+z .config
+l
+gst 
+glog 
+v main.go 
+l
+z .config
+z nv
+l
+../lazysql/
+z r
+zi r 
+l
+captest 
+captest -h
+../lmbehra-web-site/nadi-lmbehra/
+l
+z .config
+l
+z tmux/
+z nv
+l
+z -
+z na
+v *.toml
+v
+netcap 
+chmod +x /proc/net/tcp
+chmod -R 0777 /proc/net/tcp
+exit 
+v a.llm
+exit 
+./shell
+exit 
+exit 
+z lembehra-api
+exit 
+go run .
+air
+~/termux-junk-cleaner/termux-junk-cleaner.sh -a
+z lembehra-api
+go run .
+mongod|jq -C |less 
+v main.go 
+z lo
+l
+z share/
+l
+z nvim/
+l
+../../state/nvim/
+l
+rm -rf swap/
+z lembehra-api
+v main.go 
+exit 
+mongod|jq -C 
+air
+z .config

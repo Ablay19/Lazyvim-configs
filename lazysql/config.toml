@@ -1,0 +1,7 @@
+ConfigFile = '/data/data/com.termux/files/home/.config/lazysql/config.toml'
+database = []
+
+[application]
+DefaultPageSize = 300
+DisableSidebar = false
+SidebarOverlay = false

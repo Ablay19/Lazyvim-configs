@@ -930,7 +930,7 @@ def up [] {
   pkg update;
   pkg  upgrade
 }
-
+$env.PATH = ($env.PATH | append $"($nu.home-path)/go/bin")
 source ~/.config/nushell/env.nu
 source ~/.zoxide.nu
 source ~/.cache/carapace/init.nu
